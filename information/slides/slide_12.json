@@ -1,0 +1,397 @@
+{
+  "slide_number": 12,
+  "slide_id": "slide_12",
+  "title": "08.",
+  "subtitle": null,
+  "body": [
+    {
+      "text": "PRINT & ASSEMBLY",
+      "level": 0
+    },
+    {
+      "text": "Time taken",
+      "level": 0
+    },
+    {
+      "text": "TOTAL PRINT TIME",
+      "level": 0
+    },
+    {
+      "text": "7 h",
+      "level": 0
+    },
+    {
+      "text": "all main parts on the Bambu Lab",
+      "level": 0
+    },
+    {
+      "text": "TOTAL ASSEMBLY TIME",
+      "level": 0
+    },
+    {
+      "text": "18 h",
+      "level": 0
+    },
+    {
+      "text": "bench work, by hand",
+      "level": 0
+    },
+    {
+      "text": "from first layer to a finished vehicle",
+      "level": 0
+    },
+    {
+      "text": "PRINT TIME",
+      "level": 0
+    },
+    {
+      "text": "ASSEMBLY TIME \u2014 BY PHASE",
+      "level": 0
+    },
+    {
+      "text": "ETAD 130  \u00b7  B. MIRONOV",
+      "level": 0
+    },
+    {
+      "text": "Print & Assembly",
+      "level": 0
+    },
+    {
+      "text": "11 / 13",
+      "level": 0
+    },
+    {
+      "text": "OVERALL TIME",
+      "level": 0
+    },
+    {
+      "text": "25 h",
+      "level": 0
+    }
+  ],
+  "bullets_flat": [
+    "PRINT & ASSEMBLY",
+    "Time taken",
+    "TOTAL PRINT TIME",
+    "7 h",
+    "all main parts on the Bambu Lab",
+    "TOTAL ASSEMBLY TIME",
+    "18 h",
+    "bench work, by hand",
+    "from first layer to a finished vehicle",
+    "PRINT TIME",
+    "ASSEMBLY TIME \u2014 BY PHASE",
+    "ETAD 130  \u00b7  B. MIRONOV",
+    "Print & Assembly",
+    "11 / 13",
+    "OVERALL TIME",
+    "25 h"
+  ],
+  "images": [],
+  "tables": [
+    {
+      "rows": [
+        [
+          "PART",
+          "QTY",
+          "HOURS"
+        ],
+        [
+          "Hull side panels",
+          "2",
+          "2.0"
+        ],
+        [
+          "Central cabin",
+          "1",
+          "1.5"
+        ],
+        [
+          "Drive and idler wheels",
+          "4",
+          "1.0"
+        ],
+        [
+          "Bevel gear assembly",
+          "1",
+          "1.5"
+        ],
+        [
+          "Track shafts (barrod)",
+          "3",
+          "0.5"
+        ],
+        [
+          "Engine-mount bracket",
+          "1",
+          "0.5"
+        ],
+        [
+          "TOTAL",
+          "12 parts",
+          "7.0"
+        ]
+      ],
+      "row_count": 8,
+      "col_count": 3
+    },
+    {
+      "rows": [
+        [
+          "PHASE",
+          "WORK",
+          "HOURS"
+        ],
+        [
+          "Print cleanup",
+          "Reaming bores, deburring, light sanding",
+          "2.0"
+        ],
+        [
+          "Track welding",
+          "148 links + 150 rivets, soldering iron",
+          "8.0"
+        ],
+        [
+          "Hull assembly",
+          "Side panels onto cabin, shaft fit-up",
+          "2.0"
+        ],
+        [
+          "Drivetrain",
+          "Differential gears, motor bracket",
+          "2.0"
+        ],
+        [
+          "Electronics",
+          "Arduino, driver, motor, wiring",
+          "2.0"
+        ],
+        [
+          "Fit-up & test",
+          "Track tensioning, drive trial, debug",
+          "2.0"
+        ],
+        [
+          "TOTAL",
+          "bench hours",
+          "18.0"
+        ]
+      ],
+      "row_count": 8,
+      "col_count": 3
+    }
+  ],
+  "charts": [],
+  "shapes_summary": [
+    {
+      "name": "Shape 8",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 8.72,
+      "top_in": 1.8,
+      "width_in": 3.94,
+      "height_in": 1.15
+    },
+    {
+      "name": "Text 0",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 0.55,
+      "width_in": 0.7,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 1",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 1.3,
+      "top_in": 0.55,
+      "width_in": 9.0,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 2",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 1.05,
+      "width_in": 12.13,
+      "height_in": 0.7
+    },
+    {
+      "name": "Shape 4",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.46,
+      "top_in": 1.8,
+      "width_in": 3.94,
+      "height_in": 1.15
+    },
+    {
+      "name": "Text 5",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.71,
+      "top_in": 1.92,
+      "width_in": 3.44,
+      "height_in": 0.28
+    },
+    {
+      "name": "Text 6",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.71,
+      "top_in": 2.18,
+      "width_in": 3.44,
+      "height_in": 0.55
+    },
+    {
+      "name": "Text 7",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.71,
+      "top_in": 2.65,
+      "width_in": 3.44,
+      "height_in": 0.25
+    },
+    {
+      "name": "Shape 8",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 4.59,
+      "top_in": 1.8,
+      "width_in": 3.94,
+      "height_in": 1.15
+    },
+    {
+      "name": "Text 9",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 4.84,
+      "top_in": 1.92,
+      "width_in": 3.44,
+      "height_in": 0.28
+    },
+    {
+      "name": "Text 10",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 4.84,
+      "top_in": 2.18,
+      "width_in": 3.44,
+      "height_in": 0.55
+    },
+    {
+      "name": "Text 11",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 4.84,
+      "top_in": 2.65,
+      "width_in": 3.44,
+      "height_in": 0.25
+    },
+    {
+      "name": "Text 15",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 8.97,
+      "top_in": 2.65,
+      "width_in": 3.44,
+      "height_in": 0.25
+    },
+    {
+      "name": "Text 16",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 3.19,
+      "width_in": 6.0,
+      "height_in": 0.3
+    },
+    {
+      "name": "Table 0",
+      "type": "TABLE (19)",
+      "has_text": false,
+      "left_in": 0.6,
+      "top_in": 3.53,
+      "width_in": 6.0,
+      "height_in": 3.33
+    },
+    {
+      "name": "Text 17",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 6.82,
+      "top_in": 3.23,
+      "width_in": 6.0,
+      "height_in": 0.3
+    },
+    {
+      "name": "Table 1",
+      "type": "TABLE (19)",
+      "has_text": false,
+      "left_in": 6.73,
+      "top_in": 3.57,
+      "width_in": 6.0,
+      "height_in": 3.31
+    },
+    {
+      "name": "Shape 22",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 7.05,
+      "width_in": 12.13,
+      "height_in": 0.0
+    },
+    {
+      "name": "Text 23",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 7.15,
+      "width_in": 4.0,
+      "height_in": 0.25
+    },
+    {
+      "name": "Text 24",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 3.67,
+      "top_in": 7.15,
+      "width_in": 6.0,
+      "height_in": 0.25
+    },
+    {
+      "name": "Text 25",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 11.73,
+      "top_in": 7.15,
+      "width_in": 1.0,
+      "height_in": 0.25
+    },
+    {
+      "name": "Text 9",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 8.94,
+      "top_in": 1.88,
+      "width_in": 3.44,
+      "height_in": 0.28
+    },
+    {
+      "name": "Text 10",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 8.94,
+      "top_in": 2.14,
+      "width_in": 3.44,
+      "height_in": 0.55
+    }
+  ],
+  "notes": "",
+  "intent": "content"
+}

@@ -1,0 +1,31 @@
+title: "ETAD 130 — A Differential-Gear Learning Platform"
+description: "B. Mironov, Berea College, Spring 2026. Final project portfolio."
+author: "B. Mironov"
+url: "https://mironovb.github.io"
+baseurl: "/Mark1"
+
+permalink: pretty
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+include:
+  - .nojekyll
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - _build/
+  - "*.pptx"
+  - information/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

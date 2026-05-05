@@ -1,0 +1,59 @@
+{
+  "slide_number": 10,
+  "slide_id": "slide_10",
+  "title": "Part Simulation Highlights \u2013 main driving wheel",
+  "subtitle": null,
+  "body": [],
+  "bullets_flat": [],
+  "images": [
+    {
+      "path": "media/slide10_img1.jpg",
+      "content_type": "image/jpeg",
+      "width_inches": 6.69,
+      "height_inches": 6.45,
+      "left_inches": 6.64,
+      "top_inches": 0.98
+    },
+    {
+      "path": "media/slide10_img2.jpg",
+      "content_type": "image/jpeg",
+      "width_inches": 6.37,
+      "height_inches": 6.29,
+      "left_inches": 0.1,
+      "top_inches": 1.22
+    }
+  ],
+  "tables": [],
+  "charts": [],
+  "shapes_summary": [
+    {
+      "name": "Picture 1",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 6.64,
+      "top_in": 0.98,
+      "width_in": 6.69,
+      "height_in": 6.45
+    },
+    {
+      "name": "Picture 2",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 0.1,
+      "top_in": 1.22,
+      "width_in": 6.37,
+      "height_in": 6.29
+    },
+    {
+      "name": "Text 2",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.54,
+      "top_in": 0.13,
+      "width_in": 12.13,
+      "height_in": 0.85
+    }
+  ],
+  "notes": "",
+  "intent": "content"
+}

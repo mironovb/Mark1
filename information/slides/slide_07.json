@@ -1,0 +1,360 @@
+{
+  "slide_number": 7,
+  "slide_id": "slide_07",
+  "title": "06.",
+  "subtitle": null,
+  "body": [
+    {
+      "text": "TECHNICAL DRAWINGS",
+      "level": 0
+    },
+    {
+      "text": "Views, dimensions, and labels.",
+      "level": 0
+    },
+    {
+      "text": "Sheet 01 \u00a0 FRONT VIEW",
+      "level": 0
+    },
+    {
+      "text": "Sheet 02 \u00a0SIDE VIEW",
+      "level": 0
+    },
+    {
+      "text": "Sheet 02\u00a0 \u00a0   TOP VIEW",
+      "level": 0
+    },
+    {
+      "text": "Sheet 01\u00a0 \u00a0  ISOMETRIC",
+      "level": 0
+    },
+    {
+      "text": "Source files:   BMironov_Tracked.dwg   \u00b7   BMironov_TrackedFull.pdf",
+      "level": 0
+    },
+    {
+      "text": "ETAD 130  \u00b7  B. MIRONOV",
+      "level": 0
+    },
+    {
+      "text": "Drawings",
+      "level": 0
+    },
+    {
+      "text": "7 / 13",
+      "level": 0
+    },
+    {
+      "text": "Sheet 03 HULL\u00a0 SIDE VIEW",
+      "level": 0
+    },
+    {
+      "text": "Sheet 02\u00a0 \u00a0 HULL ISOMETRIC",
+      "level": 0
+    }
+  ],
+  "bullets_flat": [
+    "TECHNICAL DRAWINGS",
+    "Views, dimensions, and labels.",
+    "Sheet 01 \u00a0 FRONT VIEW",
+    "Sheet 02 \u00a0SIDE VIEW",
+    "Sheet 02\u00a0 \u00a0   TOP VIEW",
+    "Sheet 01\u00a0 \u00a0  ISOMETRIC",
+    "Source files:   BMironov_Tracked.dwg   \u00b7   BMironov_TrackedFull.pdf",
+    "ETAD 130  \u00b7  B. MIRONOV",
+    "Drawings",
+    "7 / 13",
+    "Sheet 03 HULL\u00a0 SIDE VIEW",
+    "Sheet 02\u00a0 \u00a0 HULL ISOMETRIC"
+  ],
+  "images": [
+    {
+      "path": "media/slide07_img1.png",
+      "content_type": "image/png",
+      "width_inches": 5.41,
+      "height_inches": 2.47,
+      "left_inches": 3.98,
+      "top_inches": 0.99
+    },
+    {
+      "path": "media/slide07_img2.png",
+      "content_type": "image/png",
+      "width_inches": 3.63,
+      "height_inches": 2.94,
+      "left_inches": 5.24,
+      "top_inches": 4.09
+    },
+    {
+      "path": "media/slide07_img3.png",
+      "content_type": "image/png",
+      "width_inches": 3.35,
+      "height_inches": 2.22,
+      "left_inches": 1.05,
+      "top_inches": 4.45
+    },
+    {
+      "path": "media/slide07_img4.png",
+      "content_type": "image/png",
+      "width_inches": 3.17,
+      "height_inches": 2.86,
+      "left_inches": 0.34,
+      "top_inches": 1.09
+    },
+    {
+      "path": "media/slide07_img5.png",
+      "content_type": "image/png",
+      "width_inches": 3.84,
+      "height_inches": 2.21,
+      "left_inches": 9.49,
+      "top_inches": 1.31
+    },
+    {
+      "path": "media/slide07_img6.png",
+      "content_type": "image/png",
+      "width_inches": 3.06,
+      "height_inches": 2.64,
+      "left_inches": 9.21,
+      "top_inches": 4.24
+    }
+  ],
+  "tables": [],
+  "charts": [],
+  "shapes_summary": [
+    {
+      "name": "Text 0",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 0.15,
+      "width_in": 0.7,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 1",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 1.3,
+      "top_in": 0.15,
+      "width_in": 9.0,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 2",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 3.98,
+      "top_in": -0.07,
+      "width_in": 12.13,
+      "height_in": 0.85
+    },
+    {
+      "name": "Shape 4",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.34,
+      "top_in": 0.6,
+      "width_in": 3.56,
+      "height_in": 0.35
+    },
+    {
+      "name": "Text 5",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.56,
+      "top_in": 0.63,
+      "width_in": 5.6,
+      "height_in": 0.32
+    },
+    {
+      "name": "Shape 8",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 5.4,
+      "top_in": 0.6,
+      "width_in": 2.53,
+      "height_in": 0.34
+    },
+    {
+      "name": "Text 9",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 5.57,
+      "top_in": 0.6,
+      "width_in": 6.32,
+      "height_in": 0.34
+    },
+    {
+      "name": "Shape 12",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 1.24,
+      "top_in": 4.07,
+      "width_in": 2.97,
+      "height_in": 0.36
+    },
+    {
+      "name": "Text 13",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 1.44,
+      "top_in": 4.07,
+      "width_in": 2.77,
+      "height_in": 0.36
+    },
+    {
+      "name": "Shape 16",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 5.24,
+      "top_in": 3.65,
+      "width_in": 3.66,
+      "height_in": 0.34
+    },
+    {
+      "name": "Text 17",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 5.44,
+      "top_in": 3.65,
+      "width_in": 7.53,
+      "height_in": 0.38
+    },
+    {
+      "name": "Text 19",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 6.78,
+      "width_in": 12.13,
+      "height_in": 0.22
+    },
+    {
+      "name": "Shape 20",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 7.05,
+      "width_in": 12.13,
+      "height_in": 0.0
+    },
+    {
+      "name": "Text 21",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 7.15,
+      "width_in": 4.0,
+      "height_in": 0.25
+    },
+    {
+      "name": "Text 22",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 3.67,
+      "top_in": 7.15,
+      "width_in": 6.0,
+      "height_in": 0.25
+    },
+    {
+      "name": "Text 23",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 11.73,
+      "top_in": 7.15,
+      "width_in": 1.0,
+      "height_in": 0.25
+    },
+    {
+      "name": "Picture 1",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 3.98,
+      "top_in": 0.99,
+      "width_in": 5.41,
+      "height_in": 2.47
+    },
+    {
+      "name": "Picture 2",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 5.24,
+      "top_in": 4.09,
+      "width_in": 3.63,
+      "height_in": 2.94
+    },
+    {
+      "name": "Picture 3",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 1.05,
+      "top_in": 4.45,
+      "width_in": 3.35,
+      "height_in": 2.22
+    },
+    {
+      "name": "Picture 4",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 0.34,
+      "top_in": 1.09,
+      "width_in": 3.17,
+      "height_in": 2.86
+    },
+    {
+      "name": "Picture 5",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 9.49,
+      "top_in": 1.31,
+      "width_in": 3.84,
+      "height_in": 2.21
+    },
+    {
+      "name": "Shape 8",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 9.99,
+      "top_in": 0.74,
+      "width_in": 2.6,
+      "height_in": 0.33
+    },
+    {
+      "name": "Text 9",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 10.13,
+      "top_in": 0.74,
+      "width_in": 6.32,
+      "height_in": 0.34
+    },
+    {
+      "name": "Picture 8",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 9.21,
+      "top_in": 4.24,
+      "width_in": 3.06,
+      "height_in": 2.64
+    },
+    {
+      "name": "Shape 16",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 9.28,
+      "top_in": 3.78,
+      "width_in": 3.66,
+      "height_in": 0.34
+    },
+    {
+      "name": "Text 17",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 9.48,
+      "top_in": 3.78,
+      "width_in": 7.53,
+      "height_in": 0.38
+    }
+  ],
+  "notes": "",
+  "intent": "content"
+}

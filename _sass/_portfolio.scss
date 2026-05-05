@@ -1,0 +1,1213 @@
+// === Tokens ===
+
+// Palette
+$ink:    #2C3E45;
+$paper:  #FFFFFF;
+$soft:   #F7F8F5;
+$card:   #F2F4EE;
+$sage:   #7FA99B;
+$eucal:  #5E8B7E;
+$terra:  #B86F52;
+$slate:  #8B9499;
+$line:   #DCE0D8;
+$dark:   #3D4F58;
+
+// Typography
+$serif:  "Source Serif 4", "Source Serif Pro", Georgia, "Times New Roman", serif;
+$sans:   "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+$mono:   "JetBrains Mono", "Fira Code", Consolas, "Courier New", monospace;
+
+// Type scale
+$h1: 3.5rem;
+$h2: 2.25rem;
+$h3: 1.5rem;
+$body: 1rem;
+$small: 0.875rem;
+$tiny: 0.75rem;
+
+// Spacing — 8px multiples
+$s1: 0.5rem;
+$s2: 1rem;
+$s3: 1.5rem;
+$s4: 2rem;
+$s5: 3rem;
+$s6: 4rem;
+$s7: 6rem;
+$s8: 8rem;
+
+// Layout
+$max-width: 1200px;
+$content-width: 800px;
+$gutter: $s4;
+$radius: 4px;
+$rule: 1px solid $line;
+
+// Breakpoints
+$bp-mobile: 600px;
+$bp-tablet: 900px;
+$nav-h: 60px;
+
+// === Reset ===
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $sans;
+  font-size: $body;
+  line-height: 1.6;
+  color: $ink;
+  background: $paper;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img, svg, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: $eucal;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  text-decoration-thickness: 1px;
+  transition: text-decoration-thickness 120ms ease, color 120ms ease;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+  color: $ink;
+}
+
+p {
+  margin: 0 0 $s3 0;
+  max-width: $content-width;
+}
+
+h1, h2, h3, h4 {
+  font-family: $serif;
+  font-weight: 600;
+  margin: 0 0 $s3 0;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+h1 { font-size: $h1; }
+h2 { font-size: $h2; }
+h3 { font-size: $h3; }
+
+ul, ol { margin: 0 0 $s3 0; padding-left: $s4; }
+li { margin-bottom: $s1; }
+
+code, pre {
+  font-family: $mono;
+  font-size: 0.9em;
+}
+
+pre {
+  background: $soft;
+  border: $rule;
+  border-radius: $radius;
+  padding: $s3;
+  overflow-x: auto;
+  line-height: 1.5;
+}
+
+.skip {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+}
+.skip:focus {
+  left: 1rem; top: 1rem; z-index: 1000;
+  background: $ink; color: $paper;
+  padding: $s1 $s2;
+  border-radius: $radius;
+}
+
+// === Nav ===
+
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: $rule;
+  height: $nav-h;
+  display: flex;
+  align-items: center;
+}
+
+.nav__inner {
+  width: 100%;
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 $gutter;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: $s4;
+}
+
+.nav__brand {
+  display: flex;
+  align-items: center;
+  gap: $s2;
+  text-decoration: none;
+  color: $ink;
+  font-family: $serif;
+  font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.nav__brand:hover {
+  color: $eucal;
+  text-decoration: none;
+}
+
+.nav__brand-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: $eucal;
+  color: $paper;
+  border-radius: 2px;
+  font-size: $small;
+  font-family: $mono;
+  font-weight: 500;
+}
+
+.nav__brand-text {
+  font-size: $small;
+  letter-spacing: 0.02em;
+}
+
+.nav__links {
+  display: flex;
+  gap: $s3;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  white-space: nowrap;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.nav__links::-webkit-scrollbar { display: none; }
+
+.nav__links a {
+  text-decoration: none;
+  color: $slate;
+  font-size: $small;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  padding: $s1 0;
+}
+
+.nav__links a:hover {
+  color: $ink;
+  text-decoration: none;
+}
+
+@media (max-width: $bp-tablet) {
+  .nav__brand-text { display: none; }
+}
+
+// === Layout shells ===
+
+.wrap {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 $gutter;
+}
+
+main { display: block; }
+
+// === Hero ===
+
+.hero {
+  min-height: calc(100vh - #{$nav-h});
+  padding: $s7 0 $s6;
+  display: flex;
+  align-items: center;
+}
+
+.hero__grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: $s6;
+  align-items: center;
+}
+
+.hero__eyebrow {
+  font-family: $serif;
+  font-style: italic;
+  font-size: $small;
+  color: $eucal;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: $s2;
+}
+
+.hero__title {
+  font-size: 4rem;
+  line-height: 1.05;
+  margin-bottom: $s3;
+  letter-spacing: -0.02em;
+}
+
+.hero__sub {
+  font-size: 1.25rem;
+  color: $slate;
+  max-width: 32em;
+  margin-bottom: $s4;
+  line-height: 1.5;
+}
+
+.hero__meta {
+  display: flex;
+  gap: $s4;
+  font-size: $small;
+  color: $slate;
+  border-top: $rule;
+  padding-top: $s3;
+  max-width: 32em;
+}
+
+.hero__meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.hero__meta-label {
+  font-family: $mono;
+  font-size: $tiny;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $slate;
+}
+
+.hero__meta-value {
+  font-family: $sans;
+  font-weight: 500;
+  color: $ink;
+  font-size: $body;
+}
+
+.hero__photo {
+  border: $rule;
+  background: $soft;
+  padding: $s2;
+}
+
+.hero__photo img {
+  width: 100%;
+  display: block;
+}
+
+@media (max-width: $bp-tablet) {
+  .hero {
+    min-height: 0;
+    padding: $s5 0 $s5;
+  }
+  .hero__grid {
+    grid-template-columns: 1fr;
+    gap: $s4;
+  }
+  .hero__title { font-size: 2.75rem; }
+  .hero__sub { font-size: 1.1rem; }
+}
+
+// === Section header ===
+
+.section {
+  border-top: $rule;
+  padding: $s6 0 $s6;
+  scroll-margin-top: $nav-h;
+}
+
+.section--soft { background: $soft; }
+
+.section-header {
+  margin-bottom: $s5;
+}
+
+.section-header__num {
+  display: inline-block;
+  font-family: $serif;
+  font-style: italic;
+  color: $eucal;
+  font-size: 1.1rem;
+  margin-bottom: $s1;
+  letter-spacing: 0.04em;
+}
+
+.section-header__label {
+  font-family: $mono;
+  font-size: $tiny;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: $slate;
+  margin-bottom: $s2;
+}
+
+.section-header__title {
+  font-size: $h2;
+  margin-bottom: $s2;
+  max-width: 20em;
+}
+
+.section-header__sub {
+  font-size: 1.15rem;
+  color: $slate;
+  max-width: 38em;
+  margin: 0;
+  line-height: 1.5;
+}
+
+@media (max-width: $bp-tablet) {
+  .section { padding: $s5 0; }
+  .section-header { margin-bottom: $s4; }
+  .section-header__title { font-size: 1.75rem; }
+}
+
+// === Prose ===
+
+.prose {
+  max-width: $content-width;
+}
+
+.prose h3 {
+  margin-top: $s4;
+  font-size: $h3;
+}
+
+.prose h4 {
+  font-family: $sans;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: $s3;
+  margin-bottom: $s1;
+  letter-spacing: 0;
+}
+
+// === Stat band ===
+
+.stat-band {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0;
+  border-top: $rule;
+  border-bottom: $rule;
+  margin: $s4 0;
+}
+
+.stat-band__item {
+  padding: $s3 $s3;
+  border-right: $rule;
+  display: flex;
+  flex-direction: column;
+  gap: $s1;
+}
+
+.stat-band__item:last-child { border-right: none; }
+
+.stat-band__item--emph {
+  background: $soft;
+}
+
+.stat-band__label {
+  font-family: $mono;
+  font-size: $tiny;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $slate;
+}
+
+.stat-band__value {
+  font-family: $serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: $ink;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.stat-band__sub {
+  font-size: $small;
+  color: $slate;
+  line-height: 1.4;
+}
+
+@media (max-width: $bp-tablet) {
+  .stat-band {
+    grid-template-columns: 1fr 1fr;
+  }
+  .stat-band__item:nth-child(2n) { border-right: none; }
+  .stat-band__item:nth-child(n+3) { border-top: $rule; }
+  .stat-band__value { font-size: 2rem; }
+}
+
+@media (max-width: $bp-mobile) {
+  .stat-band { grid-template-columns: 1fr; }
+  .stat-band__item { border-right: none; border-top: $rule; }
+  .stat-band__item:first-child { border-top: none; }
+}
+
+// === Figure ===
+
+.figure {
+  margin: $s4 0;
+}
+
+.figure img {
+  width: 100%;
+  border: $rule;
+  background: $soft;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+}
+
+.figure figcaption {
+  font-size: $small;
+  color: $slate;
+  margin-top: $s2;
+  font-family: $serif;
+  font-style: italic;
+  max-width: $content-width;
+  line-height: 1.5;
+}
+
+.figure--wide img { max-width: 100%; }
+.figure--inset { max-width: 480px; }
+
+// === Two-column / multi-column generic ===
+
+.cols {
+  display: grid;
+  gap: $s5;
+  margin: $s4 0;
+}
+
+.cols--2 { grid-template-columns: 1fr 1fr; }
+.cols--3 { grid-template-columns: repeat(3, 1fr); }
+.cols--asym { grid-template-columns: 1.4fr 1fr; }
+
+@media (max-width: $bp-tablet) {
+  .cols--2, .cols--3, .cols--asym {
+    grid-template-columns: 1fr;
+    gap: $s4;
+  }
+}
+
+// === Cards (composition) ===
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: $s3;
+  margin: $s4 0;
+}
+
+.card {
+  background: $card;
+  border: $rule;
+  padding: $s4;
+  display: flex;
+  flex-direction: column;
+  gap: $s2;
+}
+
+.card__eyebrow {
+  font-family: $mono;
+  font-size: $tiny;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: $slate;
+}
+
+.card__title {
+  font-family: $serif;
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.card__metric {
+  font-family: $serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: $eucal;
+  line-height: 1;
+}
+
+.card__metric-sub {
+  font-size: $small;
+  color: $slate;
+  margin-top: -$s1;
+  margin-bottom: $s2;
+}
+
+.card__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: $small;
+  border-top: $rule;
+  padding-top: $s2;
+}
+
+.card__list li {
+  padding: 4px 0;
+  border-bottom: 1px dashed $line;
+  margin: 0;
+}
+
+.card__list li:last-child { border-bottom: none; }
+
+.card__list li strong {
+  color: $ink;
+  font-weight: 500;
+}
+
+.card__list li span {
+  color: $slate;
+  font-size: $tiny;
+  display: block;
+}
+
+.composition-result {
+  margin-top: $s4;
+  padding: $s4;
+  background: $dark;
+  color: $paper;
+  text-align: center;
+  font-family: $serif;
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+.composition-result strong {
+  color: $sage;
+  font-weight: 600;
+}
+
+@media (max-width: $bp-tablet) {
+  .card-grid { grid-template-columns: 1fr; }
+  .composition-result { font-size: 1.15rem; padding: $s3; }
+}
+
+// === Tables ===
+
+.tbl-wrap { overflow-x: auto; margin: $s4 0; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: $small;
+  font-family: $sans;
+}
+
+th, td {
+  padding: $s2 $s2;
+  text-align: left;
+  border-bottom: $rule;
+  vertical-align: top;
+}
+
+thead th {
+  background: $dark;
+  color: $paper;
+  font-weight: 500;
+  font-size: $tiny;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom: none;
+}
+
+tbody tr:nth-child(even) { background: $soft; }
+
+tbody tr.is-flag {
+  font-weight: 600;
+  color: $ink;
+}
+
+tbody tr.is-flag td {
+  border-left: 3px solid $terra;
+}
+
+tfoot td {
+  font-weight: 600;
+  background: $card;
+  border-top: 2px solid $ink;
+  border-bottom: none;
+}
+
+td.num, th.num {
+  font-family: $mono;
+  text-align: right;
+  white-space: nowrap;
+}
+
+@media (max-width: $bp-mobile) {
+  table thead { display: none; }
+  table, tbody, tr, td { display: block; width: 100%; }
+  tr {
+    border: $rule;
+    margin-bottom: $s2;
+    padding: $s2;
+    background: $paper !important;
+  }
+  td {
+    padding: 4px 0;
+    border-bottom: 1px dashed $line;
+    text-align: left !important;
+  }
+  td:last-child { border-bottom: none; }
+  td::before {
+    content: attr(data-label);
+    font-family: $mono;
+    font-size: $tiny;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: $slate;
+    display: block;
+    margin-bottom: 2px;
+  }
+}
+
+// === Drivetrain flow diagram ===
+
+.flow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: $s2;
+  align-items: stretch;
+  margin: $s4 0 $s5;
+}
+
+.flow__step {
+  background: $soft;
+  border: $rule;
+  padding: $s3;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.flow__step--accent {
+  background: $eucal;
+  color: $paper;
+  border-color: $eucal;
+}
+
+.flow__step--accent .flow__sub { color: rgba(255,255,255,0.85); }
+
+.flow__step + .flow__step::before {
+  content: "→";
+  position: absolute;
+  left: -16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: $slate;
+  font-family: $mono;
+  font-size: 1.2rem;
+}
+
+.flow__title {
+  font-family: $serif;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: $s1;
+  letter-spacing: 0.02em;
+}
+
+.flow__sub {
+  font-family: $mono;
+  font-size: $tiny;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $slate;
+}
+
+@media (max-width: $bp-tablet) {
+  .flow { grid-template-columns: 1fr; gap: $s2; }
+  .flow__step + .flow__step::before {
+    content: "↓";
+    left: 50%;
+    top: -16px;
+    transform: translateX(-50%);
+  }
+}
+
+// === Decision blocks ===
+
+.decisions {
+  display: grid;
+  gap: $s4;
+  margin: $s4 0;
+}
+
+.decision {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: $s3;
+  padding: $s3 0;
+  border-top: $rule;
+}
+
+.decision:last-child { border-bottom: $rule; }
+
+.decision__num {
+  font-family: $mono;
+  font-size: $tiny;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $eucal;
+  padding-top: 4px;
+}
+
+.decision__body h4 {
+  font-family: $serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 $s2 0;
+}
+
+.decision__body p {
+  margin: 0;
+}
+
+@media (max-width: $bp-mobile) {
+  .decision { grid-template-columns: 1fr; gap: $s1; }
+}
+
+// === Calc box ===
+
+.calc {
+  background: $ink;
+  color: #DDE6E0;
+  border-radius: $radius;
+  padding: $s3 $s4;
+  font-family: $mono;
+  font-size: $small;
+  line-height: 1.7;
+  margin: $s3 0;
+  overflow-x: auto;
+}
+
+.calc strong {
+  color: $sage;
+  font-weight: 500;
+}
+
+// === Critical fits panel ===
+
+.fits {
+  background: $soft;
+  border: $rule;
+  padding: $s4;
+}
+
+.fits h3 {
+  font-family: $mono;
+  font-size: $tiny;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: $slate;
+  margin: 0 0 $s2 0;
+  font-weight: 500;
+}
+
+.fits__item {
+  padding: $s2 0;
+  border-top: 1px dashed $line;
+}
+
+.fits__item:first-of-type { border-top: none; padding-top: 0; }
+.fits__item:last-child { padding-bottom: 0; }
+
+.fits__heading {
+  font-family: $serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: $ink;
+  margin: 0 0 4px;
+}
+
+.fits__body {
+  font-size: $small;
+  color: $ink;
+  margin: 0;
+  max-width: none;
+}
+
+// === Reflection ===
+
+.reflect {
+  display: grid;
+  gap: $s5;
+}
+
+.reflect__group h3 {
+  font-family: $sans;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $eucal;
+  margin: 0 0 $s2 0;
+  border-bottom: 2px solid $eucal;
+  padding-bottom: $s1;
+  display: inline-block;
+}
+
+.reflect__group h4 {
+  font-family: $serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: $s3 0 $s1;
+}
+
+.reflect__group p {
+  margin: 0 0 $s2 0;
+}
+
+// === Drawings gallery ===
+
+.drawings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: $s3;
+  margin: $s4 0;
+}
+
+.drawing-tile {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: $paper;
+  border: $rule;
+  padding: $s2;
+  transition: border-color 120ms ease, transform 120ms ease;
+}
+
+.drawing-tile:hover {
+  border-color: $eucal;
+  text-decoration: none;
+  color: inherit;
+}
+
+.drawing-tile img {
+  width: 100%;
+  background: $paper;
+  display: block;
+  aspect-ratio: 11 / 8.5;
+  object-fit: contain;
+}
+
+.drawing-tile__meta {
+  padding-top: $s2;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-top: $rule;
+  margin-top: $s2;
+}
+
+.drawing-tile__num {
+  font-family: $mono;
+  font-size: $tiny;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $slate;
+}
+
+.drawing-tile__title {
+  font-family: $serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: $ink;
+  margin: 0;
+}
+
+// === Sheet page ===
+
+.sheet { padding: $s5 0; }
+
+.sheet-header { max-width: $max-width; }
+
+.sheet-header__num {
+  font-family: $mono;
+  font-size: $tiny;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $slate;
+  margin-bottom: $s2;
+}
+
+.sheet-header__title {
+  font-size: 2.5rem;
+  margin-bottom: $s2;
+}
+
+.sheet-header__sub {
+  color: $slate;
+  font-size: 1.1rem;
+  max-width: 38em;
+  margin-bottom: $s3;
+}
+
+.sheet-meta {
+  display: flex;
+  gap: $s4;
+  flex-wrap: wrap;
+  border-top: $rule;
+  border-bottom: $rule;
+  padding: $s2 0;
+  margin: $s3 0 $s4;
+}
+
+.sheet-meta div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.sheet-meta dt {
+  font-family: $mono;
+  font-size: $tiny;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $slate;
+  margin: 0;
+}
+
+.sheet-meta dd {
+  font-family: $sans;
+  font-size: $small;
+  font-weight: 500;
+  color: $ink;
+  margin: 0;
+}
+
+.sheet-figure {
+  margin: 0 0 $s4;
+  background: $paper;
+  border: $rule;
+  padding: $s3;
+}
+
+.sheet-figure img {
+  width: 100%;
+  background: $paper;
+}
+
+.sheet-figure figcaption {
+  font-size: $small;
+  color: $slate;
+  margin-top: $s2;
+  font-family: $serif;
+  font-style: italic;
+}
+
+.sheet-body { max-width: $content-width; }
+
+.sheet-nav {
+  margin-top: $s5;
+  padding-top: $s3;
+  border-top: $rule;
+  font-size: $small;
+}
+
+// === Page header (parts/process pages) ===
+
+.page-header {
+  padding: $s5 0 $s4;
+  border-bottom: $rule;
+  margin-bottom: $s5;
+}
+
+.page-header__eyebrow {
+  font-family: $mono;
+  font-size: $tiny;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: $slate;
+  margin-bottom: $s2;
+}
+
+.page-header__title {
+  font-size: 2.75rem;
+  margin-bottom: $s2;
+}
+
+.page-header__lede {
+  font-size: 1.15rem;
+  color: $slate;
+  max-width: 38em;
+  margin: 0;
+}
+
+// === Inline structures ===
+
+.kv {
+  display: grid;
+  grid-template-columns: 12em 1fr;
+  gap: $s2;
+  margin: $s2 0;
+  font-size: $small;
+}
+
+.kv dt {
+  font-family: $mono;
+  font-size: $tiny;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $slate;
+}
+
+.kv dd { margin: 0; color: $ink; }
+
+@media (max-width: $bp-mobile) {
+  .kv { grid-template-columns: 1fr; gap: 2px; }
+}
+
+// === Footer ===
+
+.footer {
+  background: $ink;
+  color: #C8D2D6;
+  margin-top: $s7;
+  padding: $s5 0 $s4;
+}
+
+.footer__inner {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 $gutter;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: $s4;
+}
+
+.footer__col {
+  display: flex;
+  flex-direction: column;
+  gap: $s1;
+}
+
+.footer__label {
+  font-family: $mono;
+  font-size: $tiny;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: $sage;
+}
+
+.footer__value {
+  font-size: $small;
+  color: #E0E6E2;
+}
+
+.footer__value a {
+  color: $sage;
+  text-decoration: underline;
+}
+
+.footer__value a:hover { color: $paper; }
+
+.footer__rule {
+  max-width: $max-width;
+  margin: $s4 auto 0;
+  padding: 0 $gutter;
+  border-top: 1px solid #4A5A63;
+}
+
+.footer__legal {
+  max-width: $max-width;
+  margin: $s2 auto 0;
+  padding: 0 $gutter;
+  font-size: $tiny;
+  color: $slate;
+  font-family: $mono;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+@media (max-width: $bp-tablet) {
+  .footer__inner { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: $bp-mobile) {
+  .footer__inner { grid-template-columns: 1fr; gap: $s3; }
+}
+
+// === Note (reference, footnote-ish) ===
+
+.note {
+  font-size: $small;
+  color: $slate;
+  border-left: 2px solid $line;
+  padding: 4px $s2;
+  margin: $s2 0;
+  font-style: italic;
+  font-family: $serif;
+  max-width: $content-width;
+}
+
+// === References list ===
+
+.refs {
+  list-style: none;
+  padding: 0;
+  margin: $s3 0;
+  counter-reset: ref;
+}
+
+.refs li {
+  counter-increment: ref;
+  position: relative;
+  padding: $s2 0 $s2 $s5;
+  border-bottom: $rule;
+  font-size: $small;
+  font-family: $serif;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.refs li::before {
+  content: "[" counter(ref) "]";
+  position: absolute;
+  left: 0;
+  top: $s2;
+  font-family: $mono;
+  font-size: $tiny;
+  color: $eucal;
+  letter-spacing: 0.05em;
+}
+
+.refs li .used-for {
+  display: block;
+  font-family: $sans;
+  font-style: normal;
+  color: $slate;
+  font-size: $tiny;
+  margin-top: 4px;
+  letter-spacing: 0.02em;
+}

@@ -1,0 +1,70 @@
+- id: P-01
+  name: "Hull side panels"
+  file: "hullside1.ipt"
+  qty: 2
+  description: "Mirrored rhomboidal side panels. Long ground-contact silhouette derived from the 1916 inspiration. 14.00 in long, 5.00 in tall, 0.11 in thick."
+  drawing_sheet: 3
+  group: "structure"
+- id: P-02
+  name: "Central cabin"
+  file: "centralcabin.ipt"
+  qty: 1
+  description: "Open electronics tub. U-channel form with two 135° angled corner cuts. Carries the Arduino, driver board, motor, and battery pack between the two side panels."
+  drawing_sheet: 2
+  group: "structure"
+- id: P-03
+  name: "Drive and idler wheels"
+  file: "wheeldrive.ipt"
+  qty: 8
+  description: "Ø5.00 in wheels with four square tread cutouts spaced 90°. The cutouts mesh with the track-link teeth so the wheels can drive without slipping."
+  drawing_sheet: 5
+  group: "drivetrain"
+- id: P-04
+  name: "Differential gear sub-assembly"
+  file: "Gearassembly.iam"
+  qty: 1
+  description: "Crown + pinion bevel pair preset at a 23 : 54 ratio. The crown rides on the carrier; two side gears feed the left and right outputs through spider gears."
+  drawing_sheet: 7
+  group: "drivetrain"
+- id: P-05
+  name: "Track shafts (barrod)"
+  file: "barrod.ipt"
+  qty: 2
+  description: "Ø0.30 in shafts that pass through the hull side panels and the wheel bores. A 1.00 in collar (Ø1.17) carries the side gear of the differential. Single-piece print, no glued parts."
+  drawing_sheet: 4
+  group: "drivetrain"
+- id: P-06
+  name: "Stepper-motor mount"
+  file: "bracket.ipt"
+  qty: 1
+  description: "L-bracket with a Ø1.80 in bore that locates a NEMA 17 motor. R1.00 inner radius prevents stress concentration where the bore meets the bracket face."
+  drawing_sheet: 6
+  group: "drivetrain"
+- id: P-07
+  name: "Track link"
+  file: "(extra)"
+  qty: 148
+  description: "Pin-link track segments. Printed on the Dreamer and Ender machines. Each link has two pin holes for plain rivets."
+  drawing_sheet: null
+  group: "tracks"
+- id: P-08
+  name: "Plain rivet"
+  file: "(extra)"
+  qty: 150
+  description: "PLA pins. Inserted through the link pin holes and welded with a soldering iron — the iron softens the head until it mushrooms over the link face."
+  drawing_sheet: null
+  group: "tracks"
+- id: P-09
+  name: "Nameplate"
+  file: "(surface text)"
+  qty: 1
+  description: "Bogdan nameplate added in Bambu Studio's text-on-surface tool. Prints in the same pass as the side panel."
+  drawing_sheet: null
+  group: "structure"
+- id: P-10
+  name: "Top-level assembly"
+  file: "BMironov_TrackedMark.iam"
+  qty: 1
+  description: "Inventor assembly that ties every part together with constraints. The exploded view and drawing sheets are generated from this file."
+  drawing_sheet: 1
+  group: "structure"

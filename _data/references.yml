@@ -1,0 +1,23 @@
+- key: adafruit
+  citation: "Adafruit Industries (2025). TB6612 1.2A DC/Stepper Motor Driver. learn.adafruit.com"
+  used_for: "Driver wiring and step-pulse logic"
+
+- key: arduino
+  citation: "Arduino (n.d.). Stepper Library Reference. arduino.cc/en/Reference/Stepper"
+  used_for: "Step counting and step-direction control"
+
+- key: wong
+  citation: "Wong, J. Y. (2008). Theory of Ground Vehicles (4th ed.). John Wiley & Sons."
+  used_for: "Track-vehicle steering theory and ground-contact length effects"
+
+- key: autodesk
+  citation: "Autodesk (n.d.). Inventor Help — Assemblies and Drawings. help.autodesk.com"
+  used_for: "Assembly constraints and the seven-sheet drawing set"
+
+- key: bambu
+  citation: "Bambu Lab (n.d.). Bambu Studio User Manual. bambulab.com"
+  used_for: "Slicing settings, time and mass estimates, on-surface text"
+
+- key: mark1_history
+  citation: "Imperial War Museum (n.d.). Mark I Tank — Object Records. iwm.org.uk"
+  used_for: "Silhouette reference for the rhomboidal hull form (1916)"

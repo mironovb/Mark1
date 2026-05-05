@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<article class="sheet">
+  <header class="sheet-header">
+    <div class="sheet-header__num">Sheet {{ page.sheet_num }} of 7</div>
+    <h1 class="sheet-header__title">{{ page.title }}</h1>
+    {%- if page.subtitle %}<p class="sheet-header__sub">{{ page.subtitle }}</p>{% endif -%}
+    <dl class="sheet-meta">
+      <div><dt>Part</dt><dd>{{ page.part }}</dd></div>
+      <div><dt>Scale</dt><dd>{{ page.scale }}</dd></div>
+      <div><dt>Drawn</dt><dd>{{ page.drawn }}</dd></div>
+      <div><dt>Size</dt><dd>{{ page.sheet_size }}</dd></div>
+    </dl>
+  </header>
+
+  <figure class="sheet-figure">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt }}" loading="lazy">
+    <figcaption>{{ page.image_caption }}</figcaption>
+  </figure>
+
+  <div class="sheet-body">
+    {{ content }}
+  </div>
+
+  <nav class="sheet-nav">
+    <a href="{{ '/drawings/' | relative_url }}">All drawings</a>
+    {%- if page.prev_sheet %} · <a href="{{ page.prev_sheet | relative_url }}">Previous sheet</a>{% endif -%}
+    {%- if page.next_sheet %} · <a href="{{ page.next_sheet | relative_url }}">Next sheet</a>{% endif -%}
+  </nav>
+</article>

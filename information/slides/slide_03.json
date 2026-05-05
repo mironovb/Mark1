@@ -1,0 +1,276 @@
+{
+  "slide_number": 3,
+  "slide_id": "slide_03",
+  "title": "02.",
+  "subtitle": null,
+  "body": [
+    {
+      "text": "INSPIRATION & PURPOSE",
+      "level": 0
+    },
+    {
+      "text": "An old shape for an educational lesson and potential platform for autonomous vehicle design",
+      "level": 0
+    },
+    {
+      "text": "THE",
+      "level": 0
+    },
+    {
+      "text": "SILHOUETTE",
+      "level": 0
+    },
+    {
+      "text": "a rhomboidal hull from 1916, a supply non-battle vehicle",
+      "level": 0
+    },
+    {
+      "text": "WHAT THIS BUILD IS",
+      "level": 0
+    },
+    {
+      "text": "A hands-on platform for\u00a0understanding differential gears and embedded control",
+      "level": 0
+    },
+    {
+      "text": "The drivetrain sits open in the cabin so the differential is visible while it works. The rhomboidal hull gives a long ground-contact length and a high approach angle, useful as a stable, slow demonstrator that can additionally\u00a0demonstrate\u00a0difficult terrain navigation",
+      "level": 0
+    },
+    {
+      "text": "The Arduino runs open-loop step counting today. Adding encoders, an IMU, and feedback loops would turn it into a closed-loop platform, and the wiring leaves room for that step.",
+      "level": 0
+    },
+    {
+      "text": "Intended user:  engineering students learning about mechanical vehicle and track design\u00a0and embedded control; autonomous vehicle engineers",
+      "level": 0
+    },
+    {
+      "text": "ETAD 130  \u00b7  B. MIRONOV",
+      "level": 0
+    },
+    {
+      "text": "Inspiration & Purpose",
+      "level": 0
+    },
+    {
+      "text": "3 / 13",
+      "level": 0
+    },
+    {
+      "text": "Fig. 2\u00a0 \u00a0The rhomboidal hull shape that offers superior terrain maneuver capabilities for crossing obstacles",
+      "level": 0
+    },
+    {
+      "text": "An autonomous stack-embedded tracked vehicle platform",
+      "level": 0
+    },
+    {
+      "text": "It can potentially include obstacle avoidance via ultrasonic or LiDAR, and vision-guided navigation and waypoint following, making way for creating a fully autonomous area patrol or research vehicle",
+      "level": 0
+    }
+  ],
+  "bullets_flat": [
+    "INSPIRATION & PURPOSE",
+    "An old shape for an educational lesson and potential platform for autonomous vehicle design",
+    "THE",
+    "SILHOUETTE",
+    "a rhomboidal hull from 1916, a supply non-battle vehicle",
+    "WHAT THIS BUILD IS",
+    "A hands-on platform for\u00a0understanding differential gears and embedded control",
+    "The drivetrain sits open in the cabin so the differential is visible while it works. The rhomboidal hull gives a long ground-contact length and a high approach angle, useful as a stable, slow demonstrator that can additionally\u00a0demonstrate\u00a0difficult terrain navigation",
+    "The Arduino runs open-loop step counting today. Adding encoders, an IMU, and feedback loops would turn it into a closed-loop platform, and the wiring leaves room for that step.",
+    "Intended user:  engineering students learning about mechanical vehicle and track design\u00a0and embedded control; autonomous vehicle engineers",
+    "ETAD 130  \u00b7  B. MIRONOV",
+    "Inspiration & Purpose",
+    "3 / 13",
+    "Fig. 2\u00a0 \u00a0The rhomboidal hull shape that offers superior terrain maneuver capabilities for crossing obstacles",
+    "An autonomous stack-embedded tracked vehicle platform",
+    "It can potentially include obstacle avoidance via ultrasonic or LiDAR, and vision-guided navigation and waypoint following, making way for creating a fully autonomous area patrol or research vehicle"
+  ],
+  "images": [
+    {
+      "path": "media/slide03_img1.gif",
+      "content_type": "image/gif",
+      "width_inches": 5.91,
+      "height_inches": 2.38,
+      "left_inches": 0.37,
+      "top_inches": 4.52
+    },
+    {
+      "path": "media/slide03_img2.jpg",
+      "content_type": "image/jpeg",
+      "width_inches": 4.28,
+      "height_inches": 2.72,
+      "left_inches": 1.76,
+      "top_inches": 1.86
+    }
+  ],
+  "tables": [],
+  "charts": [],
+  "shapes_summary": [
+    {
+      "name": "Text 0",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.62,
+      "top_in": 0.3,
+      "width_in": 0.7,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 1",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 1.32,
+      "top_in": 0.3,
+      "width_in": 9.0,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 2",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.44,
+      "top_in": 0.82,
+      "width_in": 12.13,
+      "height_in": 0.85
+    },
+    {
+      "name": "Text 4",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.44,
+      "top_in": 2.25,
+      "width_in": 5.0,
+      "height_in": 0.3
+    },
+    {
+      "name": "Text 11",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.85,
+      "top_in": 5.85,
+      "width_in": 5.5,
+      "height_in": 0.3
+    },
+    {
+      "name": "Text 12",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 7.0,
+      "top_in": 1.88,
+      "width_in": 6.0,
+      "height_in": 0.3
+    },
+    {
+      "name": "Text 13",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 7.0,
+      "top_in": 2.28,
+      "width_in": 6.0,
+      "height_in": 0.55
+    },
+    {
+      "name": "Text 15",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 7.0,
+      "top_in": 2.95,
+      "width_in": 5.8,
+      "height_in": 1.6
+    },
+    {
+      "name": "Text 16",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 7.0,
+      "top_in": 6.41,
+      "width_in": 5.8,
+      "height_in": 0.45
+    },
+    {
+      "name": "Shape 17",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 7.05,
+      "width_in": 12.13,
+      "height_in": 0.0
+    },
+    {
+      "name": "Text 18",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 7.15,
+      "width_in": 4.0,
+      "height_in": 0.25
+    },
+    {
+      "name": "Text 19",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 3.67,
+      "top_in": 7.15,
+      "width_in": 6.0,
+      "height_in": 0.25
+    },
+    {
+      "name": "Text 20",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 11.73,
+      "top_in": 7.15,
+      "width_in": 1.0,
+      "height_in": 0.25
+    },
+    {
+      "name": "Picture 2",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 0.37,
+      "top_in": 4.52,
+      "width_in": 5.91,
+      "height_in": 2.38
+    },
+    {
+      "name": "Text 3",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": -1.92,
+      "top_in": 6.63,
+      "width_in": 10.29,
+      "height_in": 0.73
+    },
+    {
+      "name": "Text 13",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 7.0,
+      "top_in": 4.99,
+      "width_in": 6.0,
+      "height_in": 0.55
+    },
+    {
+      "name": "Text 15",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 7.1,
+      "top_in": 5.67,
+      "width_in": 5.8,
+      "height_in": 1.6
+    },
+    {
+      "name": "Picture 6",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 1.76,
+      "top_in": 1.86,
+      "width_in": 4.28,
+      "height_in": 2.72
+    }
+  ],
+  "notes": "",
+  "intent": "contact"
+}

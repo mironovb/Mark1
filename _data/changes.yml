@@ -1,0 +1,11 @@
+- heading: "Rear-wheel drive → front-wheel drive"
+  body: "The first layout drove the rear wheel pair. With the differential mounted at the back of the cabin, the side gears had to push torque through long shafts that flexed under load. Moving the drive forward shortened the load path and put the gear pair where the cabin was already widest, leaving room for the motor bracket without overhanging the hull."
+
+- heading: "Bevel reduction → differential gear"
+  body: "An earlier sketch used a fixed bevel reduction with a single output shaft and two slip-fit wheels. That works on a flat floor and breaks the moment the vehicle starts to turn. Replacing the fixed pair with a true differential — two side gears, two spider gears, a carrier — gave the two outputs independent speed. The build now teaches what a differential does instead of pretending it's not needed."
+
+- heading: "Loose tabs → tighter slot fits"
+  body: "The first hull-to-cabin joint used loose tabs sized for the design dimensions. Once the panels printed at 0.118 in instead of the 0.110 in design, the tabs rattled in their slots. The slots were narrowed in the next revision so the printed thickness fit firmly without sanding."
+
+- heading: "Single-machine tracks → mixed Dreamer + Ender"
+  body: "Plan was to print all 148 links on one printer. The Bambu was tied up with hull parts, so the link batches went to the Dreamer and Ender. The two machines ran a few percent apart on small features — enough that one track loop ended up looser than the other and a printed tensioner was added on that side."

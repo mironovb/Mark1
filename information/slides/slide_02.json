@@ -1,0 +1,463 @@
+{
+  "slide_number": 2,
+  "slide_id": "slide_02",
+  "title": "01.",
+  "subtitle": null,
+  "body": [
+    {
+      "text": "OVERVIEW",
+      "level": 0
+    },
+    {
+      "text": "The build, in 3 numbers.",
+      "level": 0
+    },
+    {
+      "text": "Fig. 1   The assembled prototype vs. Inspiration model (original design dated 1916)",
+      "level": 0
+    },
+    {
+      "text": "ETAD 130  \u00b7  B. MIRONOV",
+      "level": 0
+    },
+    {
+      "text": "Overview",
+      "level": 0
+    },
+    {
+      "text": "2 / 13",
+      "level": 0
+    },
+    {
+      "text": "DRIVETRAIN",
+      "level": 0
+    },
+    {
+      "text": "Differential gear",
+      "level": 0
+    },
+    {
+      "text": "8",
+      "level": 0
+    },
+    {
+      "text": "gear components",
+      "level": 0
+    },
+    {
+      "text": "Bevel pinion ; motor input",
+      "level": 0
+    },
+    {
+      "text": "Crown gear; speed reduction",
+      "level": 0
+    },
+    {
+      "text": "Carrier housing ;\u00a0 rotates with crown",
+      "level": 0
+    },
+    {
+      "text": "2 x side gears ;\u00a0 output to track shafts",
+      "level": 0
+    },
+    {
+      "text": "2 x spider gears ;\u00a0 the planet gears",
+      "level": 0
+    },
+    {
+      "text": "Cross pin; spider-gear shaft",
+      "level": 0
+    },
+    {
+      "text": "ELECTRONICS",
+      "level": 0
+    },
+    {
+      "text": "Control and power",
+      "level": 0
+    },
+    {
+      "text": "7",
+      "level": 0
+    },
+    {
+      "text": "electronic items",
+      "level": 0
+    },
+    {
+      "text": "Arduino UNO microcontroller",
+      "level": 0
+    },
+    {
+      "text": "TB6612 stepper-motor driver",
+      "level": 0
+    },
+    {
+      "text": "NEMA 17 stepper motor",
+      "level": 0
+    },
+    {
+      "text": "Breadboard",
+      "level": 0
+    },
+    {
+      "text": "Jumper wires + harness",
+      "level": 0
+    },
+    {
+      "text": "Battery pack",
+      "level": 0
+    },
+    {
+      "text": "Status LEDs",
+      "level": 0
+    },
+    {
+      "text": "STRUCTURE & TRACKS",
+      "level": 0
+    },
+    {
+      "text": "Hull and motion",
+      "level": 0
+    },
+    {
+      "text": "11",
+      "level": 0
+    },
+    {
+      "text": "unique structural parts",
+      "level": 0
+    },
+    {
+      "text": "2 x hull side panels (rhomboidal)",
+      "level": 0
+    },
+    {
+      "text": "1 x central cabin / electronics tub",
+      "level": 0
+    },
+    {
+      "text": "4 x drive and idler wheels",
+      "level": 0
+    },
+    {
+      "text": "2 x track shafts (barrod)",
+      "level": 0
+    },
+    {
+      "text": "Stepper bracket + nameplate",
+      "level": 0
+    },
+    {
+      "text": "148 x track links",
+      "level": 0
+    },
+    {
+      "text": "150 x plain rivets",
+      "level": 0
+    }
+  ],
+  "bullets_flat": [
+    "OVERVIEW",
+    "The build, in 3 numbers.",
+    "Fig. 1   The assembled prototype vs. Inspiration model (original design dated 1916)",
+    "ETAD 130  \u00b7  B. MIRONOV",
+    "Overview",
+    "2 / 13",
+    "DRIVETRAIN",
+    "Differential gear",
+    "8",
+    "gear components",
+    "Bevel pinion ; motor input",
+    "Crown gear; speed reduction",
+    "Carrier housing ;\u00a0 rotates with crown",
+    "2 x side gears ;\u00a0 output to track shafts",
+    "2 x spider gears ;\u00a0 the planet gears",
+    "Cross pin; spider-gear shaft",
+    "ELECTRONICS",
+    "Control and power",
+    "7",
+    "electronic items",
+    "Arduino UNO microcontroller",
+    "TB6612 stepper-motor driver",
+    "NEMA 17 stepper motor",
+    "Breadboard",
+    "Jumper wires + harness",
+    "Battery pack",
+    "Status LEDs",
+    "STRUCTURE & TRACKS",
+    "Hull and motion",
+    "11",
+    "unique structural parts",
+    "2 x hull side panels (rhomboidal)",
+    "1 x central cabin / electronics tub",
+    "4 x drive and idler wheels",
+    "2 x track shafts (barrod)",
+    "Stepper bracket + nameplate",
+    "148 x track links",
+    "150 x plain rivets"
+  ],
+  "images": [
+    {
+      "path": "media/slide02_img2.jpg",
+      "content_type": "image/jpeg",
+      "width_inches": 5.45,
+      "height_inches": 3.12,
+      "left_inches": 7.02,
+      "top_inches": 3.89
+    }
+  ],
+  "tables": [],
+  "charts": [],
+  "shapes_summary": [
+    {
+      "name": "Rectangle: Rounded Corners 115",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.12,
+      "top_in": 4.91,
+      "width_in": 6.1,
+      "height_in": 2.23
+    },
+    {
+      "name": "Rectangle: Rounded Corners 114",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 3.23,
+      "top_in": 1.28,
+      "width_in": 2.99,
+      "height_in": 3.51
+    },
+    {
+      "name": "Rectangle: Rounded Corners 113",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.11,
+      "top_in": 1.25,
+      "width_in": 2.99,
+      "height_in": 3.51
+    },
+    {
+      "name": "Text 0",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.29,
+      "top_in": 0.17,
+      "width_in": 0.7,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 1",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.99,
+      "top_in": 0.17,
+      "width_in": 9.0,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 2",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.29,
+      "top_in": 0.44,
+      "width_in": 12.13,
+      "height_in": 0.85
+    },
+    {
+      "error": "unsupported image format, expected one of: dict_keys(['BMP', 'GIF', 'JPEG', 'PNG', 'TIFF', 'WMF']), got 'MPO'",
+      "name": "Image 0"
+    },
+    {
+      "name": "Text 3",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 7.33,
+      "top_in": 7.02,
+      "width_in": 5.4,
+      "height_in": 0.25
+    },
+    {
+      "name": "Text 21",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 7.15,
+      "width_in": 4.0,
+      "height_in": 0.25
+    },
+    {
+      "name": "Text 22",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 3.67,
+      "top_in": 7.15,
+      "width_in": 6.0,
+      "height_in": 0.25
+    },
+    {
+      "name": "Text 23",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 11.73,
+      "top_in": 7.15,
+      "width_in": 1.0,
+      "height_in": 0.25
+    },
+    {
+      "name": "Picture 1",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 7.02,
+      "top_in": 3.89,
+      "width_in": 5.45,
+      "height_in": 3.12
+    },
+    {
+      "name": "Text 6",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.33,
+      "top_in": 1.43,
+      "width_in": 3.47,
+      "height_in": 0.3
+    },
+    {
+      "name": "Text 7",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.3,
+      "top_in": 1.66,
+      "width_in": 3.47,
+      "height_in": 0.45
+    },
+    {
+      "name": "Text 8",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 1.25,
+      "top_in": 2.11,
+      "width_in": 3.47,
+      "height_in": 0.6
+    },
+    {
+      "name": "Text 9",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.87,
+      "top_in": 2.71,
+      "width_in": 3.47,
+      "height_in": 0.25
+    },
+    {
+      "name": "Text 11",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.3,
+      "top_in": 3.26,
+      "width_in": 3.47,
+      "height_in": 1.5
+    },
+    {
+      "name": "Text 15",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 3.45,
+      "top_in": 1.43,
+      "width_in": 3.47,
+      "height_in": 0.3
+    },
+    {
+      "name": "Text 16",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 3.45,
+      "top_in": 1.66,
+      "width_in": 3.47,
+      "height_in": 0.45
+    },
+    {
+      "name": "Text 17",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 4.46,
+      "top_in": 2.0,
+      "width_in": 3.47,
+      "height_in": 0.6
+    },
+    {
+      "name": "Text 18",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 4.09,
+      "top_in": 2.71,
+      "width_in": 3.47,
+      "height_in": 0.25
+    },
+    {
+      "name": "Text 20",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 3.55,
+      "top_in": 3.16,
+      "width_in": 3.47,
+      "height_in": 1.5
+    },
+    {
+      "name": "Text 24",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.44,
+      "top_in": 5.02,
+      "width_in": 3.47,
+      "height_in": 0.3
+    },
+    {
+      "name": "Text 25",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.56,
+      "top_in": 5.5,
+      "width_in": 3.47,
+      "height_in": 0.45
+    },
+    {
+      "name": "Text 26",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 1.22,
+      "top_in": 5.8,
+      "width_in": 3.47,
+      "height_in": 0.6
+    },
+    {
+      "name": "Text 27",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.91,
+      "top_in": 6.4,
+      "width_in": 3.47,
+      "height_in": 0.25
+    },
+    {
+      "name": "Shape 28",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.68,
+      "top_in": 7.37,
+      "width_in": 3.47,
+      "height_in": 0.0
+    },
+    {
+      "name": "Text 29",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 3.2,
+      "top_in": 5.32,
+      "width_in": 3.47,
+      "height_in": 1.5
+    }
+  ],
+  "notes": "",
+  "intent": "pricing"
+}

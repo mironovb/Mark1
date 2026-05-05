@@ -1,0 +1,21 @@
+groups:
+  - { name: "Hull side panels",       qty: 2,   mass_g: 180, pct: 18 }
+  - { name: "Central cabin",          qty: 1,   mass_g: 150, pct: 15 }
+  - { name: "Drive and idler wheels", qty: 4,   mass_g: 280, pct: 28 }
+  - { name: "Bevel gear assembly",    qty: 1,   mass_g: 80,  pct: 8 }
+  - { name: "Track shafts + bracket", qty: 4,   mass_g: 105, pct: 11 }
+  - { name: "Track links",            qty: 148, mass_g: 165, pct: 17 }
+  - { name: "Plain rivets",           qty: 150, mass_g: 30,  pct: 3 }
+
+total_mass_g: 990
+price_per_kg_usd: 20.00
+total_cost_usd: 19.80
+waste_pct: 0
+
+zero_waste_reasons:
+  - heading: "Print orientation"
+    body: "Every part placed flat-side-down or on its widest face. No overhangs steeper than 45°, so no support material was needed."
+  - heading: "Single-color PLA"
+    body: "One spool, one color, one nozzle. No purge towers and no filament-change waste."
+  - heading: "No failed prints"
+    body: "Each part came off the bed first try. Tolerances were checked on small witness prints before committing to the larger pieces."

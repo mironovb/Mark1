@@ -1,0 +1,189 @@
+{
+  "slide_number": 14,
+  "slide_id": "slide_14",
+  "title": "Thank you.",
+  "subtitle": null,
+  "body": [
+    {
+      "text": "Questions are welcome.",
+      "level": 0
+    },
+    {
+      "text": "REFERENCES",
+      "level": 0
+    },
+    {
+      "text": "Adafruit Industries (2025).  TB6612 1.2A DC/Stepper Motor Driver.  learn.adafruit.com",
+      "level": 0
+    },
+    {
+      "text": "Arduino (n.d.).  Stepper Library Reference.  arduino.cc/en/Reference/Stepper",
+      "level": 0
+    },
+    {
+      "text": "Wong, J. Y. (2008).  Theory of Ground Vehicles (4th ed.).  John Wiley & Sons.",
+      "level": 0
+    },
+    {
+      "text": "Autodesk (n.d.).  Inventor Help \u2014 Assemblies and Drawings.  help.autodesk.com",
+      "level": 0
+    },
+    {
+      "text": "Bambu Lab (n.d.).  Bambu Studio User Manual.  bambulab.com",
+      "level": 0
+    },
+    {
+      "text": "B. Mironov  \u00b7  ETAD 130  \u00b7  Spring 2026",
+      "level": 0
+    },
+    {
+      "text": "ETAD 130  \u00b7  B. MIRONOV",
+      "level": 0
+    },
+    {
+      "text": "END",
+      "level": 0
+    },
+    {
+      "text": "13 / 13",
+      "level": 0
+    }
+  ],
+  "bullets_flat": [
+    "Questions are welcome.",
+    "REFERENCES",
+    "Adafruit Industries (2025).  TB6612 1.2A DC/Stepper Motor Driver.  learn.adafruit.com",
+    "Arduino (n.d.).  Stepper Library Reference.  arduino.cc/en/Reference/Stepper",
+    "Wong, J. Y. (2008).  Theory of Ground Vehicles (4th ed.).  John Wiley & Sons.",
+    "Autodesk (n.d.).  Inventor Help \u2014 Assemblies and Drawings.  help.autodesk.com",
+    "Bambu Lab (n.d.).  Bambu Studio User Manual.  bambulab.com",
+    "B. Mironov  \u00b7  ETAD 130  \u00b7  Spring 2026",
+    "ETAD 130  \u00b7  B. MIRONOV",
+    "END",
+    "13 / 13"
+  ],
+  "images": [],
+  "tables": [],
+  "charts": [],
+  "shapes_summary": [
+    {
+      "name": "Text 0",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 0.9,
+      "width_in": 12.0,
+      "height_in": 1.4
+    },
+    {
+      "name": "Text 1",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 2.3,
+      "width_in": 12.0,
+      "height_in": 0.5
+    },
+    {
+      "name": "Text 3",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 3.5,
+      "width_in": 6.0,
+      "height_in": 0.3
+    },
+    {
+      "name": "Text 4",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 4.0,
+      "width_in": 12.0,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 5",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 4.42,
+      "width_in": 12.0,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 6",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 4.84,
+      "width_in": 12.0,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 7",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 5.26,
+      "width_in": 12.0,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 8",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 5.68,
+      "width_in": 12.0,
+      "height_in": 0.4
+    },
+    {
+      "name": "Shape 9",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 6.4,
+      "width_in": 1.0,
+      "height_in": 0.0
+    },
+    {
+      "name": "Text 10",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 6.5,
+      "width_in": 10.0,
+      "height_in": 0.35
+    },
+    {
+      "name": "Text 11",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 7.15,
+      "width_in": 4.0,
+      "height_in": 0.25
+    },
+    {
+      "name": "Text 12",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 3.67,
+      "top_in": 7.15,
+      "width_in": 6.0,
+      "height_in": 0.25
+    },
+    {
+      "name": "Text 13",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 11.73,
+      "top_in": 7.15,
+      "width_in": 1.0,
+      "height_in": 0.25
+    }
+  ],
+  "notes": "",
+  "intent": "cta_or_closing"
+}

@@ -1,0 +1,8 @@
+- { criterion: "Design Journey & Concept",         points: 7,  section_id: "design" }
+- { criterion: "Inspirations & References",         points: 5,  section_id: "inspirations" }
+- { criterion: "Visual Documentation",              points: 10, section_id: "visuals" }
+- { criterion: "Dimension Comparison & Accuracy",   points: 6,  section_id: "dimensions" }
+- { criterion: "Print & Assembly Documentation",    points: 6,  section_id: "process" }
+- { criterion: "Waste & Cost Analysis",             points: 5,  section_id: "cost" }
+- { criterion: "Reflection & Future Improvements",  points: 7,  section_id: "reflection" }
+- { criterion: "Portfolio Quality & Communication", points: 4,  section_id: "all" }

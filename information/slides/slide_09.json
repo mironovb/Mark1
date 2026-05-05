@@ -1,0 +1,93 @@
+{
+  "slide_number": 9,
+  "slide_id": "slide_09",
+  "title": "Part Simulation Highlights \u2013 main hull",
+  "subtitle": null,
+  "body": [],
+  "bullets_flat": [],
+  "images": [
+    {
+      "path": "media/slide09_img1.jpg",
+      "content_type": "image/jpeg",
+      "width_inches": 5.17,
+      "height_inches": 3.45,
+      "left_inches": 1.0,
+      "top_inches": 4.05
+    },
+    {
+      "path": "media/slide09_img2.png",
+      "content_type": "image/png",
+      "width_inches": 4.17,
+      "height_inches": 3.73,
+      "left_inches": 7.61,
+      "top_inches": 3.71
+    },
+    {
+      "path": "media/slide09_img3.jpg",
+      "content_type": "image/jpeg",
+      "width_inches": 3.32,
+      "height_inches": 4.9,
+      "left_inches": 2.06,
+      "top_inches": -0.06
+    },
+    {
+      "path": "media/slide09_img4.jpg",
+      "content_type": "image/jpeg",
+      "width_inches": 4.39,
+      "height_inches": 3.29,
+      "left_inches": 7.4,
+      "top_inches": 0.23
+    }
+  ],
+  "tables": [],
+  "charts": [],
+  "shapes_summary": [
+    {
+      "name": "Picture 1",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 1.0,
+      "top_in": 4.05,
+      "width_in": 5.17,
+      "height_in": 3.45
+    },
+    {
+      "name": "Picture 2",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 7.61,
+      "top_in": 3.71,
+      "width_in": 4.17,
+      "height_in": 3.73
+    },
+    {
+      "name": "Text 2",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 1.0,
+      "top_in": -0.12,
+      "width_in": 12.13,
+      "height_in": 0.85
+    },
+    {
+      "name": "Picture 6",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 2.06,
+      "top_in": -0.06,
+      "width_in": 3.32,
+      "height_in": 4.9
+    },
+    {
+      "name": "Picture 7",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 7.4,
+      "top_in": 0.23,
+      "width_in": 4.39,
+      "height_in": 3.29
+    }
+  ],
+  "notes": "",
+  "intent": "content"
+}

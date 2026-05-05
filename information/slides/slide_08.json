@@ -1,0 +1,301 @@
+{
+  "slide_number": 8,
+  "slide_id": "slide_08",
+  "title": "07.",
+  "subtitle": null,
+  "body": [
+    {
+      "text": "DIMENSION COMPARISON",
+      "level": 0
+    },
+    {
+      "text": "CAD model vs. printed part.",
+      "level": 0
+    },
+    {
+      "text": "CRITICAL DIMENENTIONS",
+      "level": 0
+    },
+    {
+      "text": "Track-link pin holes.",
+      "level": 0
+    },
+    {
+      "text": "Tightest tolerance in the build. Under-print: rivets do not seat. Over-print: links wobble. Most important for driving.",
+      "level": 0
+    },
+    {
+      "text": "Shafts and bores.",
+      "level": 0
+    },
+    {
+      "text": "PLA shrinks circular features: shafts smaller, bores larger. Useful here as a clearance fit.",
+      "level": 0
+    },
+    {
+      "text": "1.0% acceptable    1.0\u20133.0% review    > 3.0% critical.",
+      "level": 0
+    },
+    {
+      "text": "ETAD 130  \u00b7  B. MIRONOV",
+      "level": 0
+    },
+    {
+      "text": "Dimensions",
+      "level": 0
+    },
+    {
+      "text": "8 / 13",
+      "level": 0
+    }
+  ],
+  "bullets_flat": [
+    "DIMENSION COMPARISON",
+    "CAD model vs. printed part.",
+    "CRITICAL DIMENENTIONS",
+    "Track-link pin holes.",
+    "Tightest tolerance in the build. Under-print: rivets do not seat. Over-print: links wobble. Most important for driving.",
+    "Shafts and bores.",
+    "PLA shrinks circular features: shafts smaller, bores larger. Useful here as a clearance fit.",
+    "1.0% acceptable    1.0\u20133.0% review    > 3.0% critical.",
+    "ETAD 130  \u00b7  B. MIRONOV",
+    "Dimensions",
+    "8 / 13"
+  ],
+  "images": [],
+  "tables": [
+    {
+      "rows": [
+        [
+          "FEATURE",
+          "PART",
+          "DESIGN (in)",
+          "PRINTED (in)",
+          "\u0394 (in)",
+          "% ERROR"
+        ],
+        [
+          "Side panel length",
+          "Hullside",
+          "14.000",
+          "13.945",
+          "\u22120.055",
+          "0.39%"
+        ],
+        [
+          "Side panel height",
+          "Hullside",
+          "5.000",
+          "4.972",
+          "\u22120.028",
+          "0.56%"
+        ],
+        [
+          "Cabin length",
+          "centralcabin",
+          "7.000",
+          "6.963",
+          "\u22120.037",
+          "0.53%"
+        ],
+        [
+          "Cabin height",
+          "centralcabin",
+          "4.000",
+          "3.978",
+          "\u22120.022",
+          "0.55%"
+        ],
+        [
+          "Side-panel thickness",
+          "Hullside",
+          "0.110",
+          "0.118",
+          "+0.008",
+          "7.27%"
+        ],
+        [
+          "Wheel diameter",
+          "wheeldrive",
+          "5.000",
+          "4.968",
+          "\u22120.032",
+          "0.64%"
+        ],
+        [
+          "Wheel bore D",
+          "wheeldrive",
+          "0.300",
+          "0.282",
+          "\u22120.018",
+          "6.00%"
+        ],
+        [
+          "Drive-rod shaft D",
+          "barrod",
+          "0.300",
+          "0.291",
+          "\u22120.009",
+          "3.00%"
+        ],
+        [
+          "Engine-mount bore D",
+          "Enginemount",
+          "1.800",
+          "1.788",
+          "\u22120.012",
+          "0.67%"
+        ],
+        [
+          "Hullside shaft hole D",
+          "Hullside",
+          "0.300",
+          "0.286",
+          "\u22120.014",
+          "4.67%"
+        ],
+        [
+          "Bevel-gear bore D",
+          "Bevelgears",
+          "0.300",
+          "0.288",
+          "\u22120.012",
+          "4.00%"
+        ]
+      ],
+      "row_count": 12,
+      "col_count": 6
+    }
+  ],
+  "charts": [],
+  "shapes_summary": [
+    {
+      "name": "Text 0",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.69,
+      "top_in": 0.15,
+      "width_in": 0.7,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 1",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 1.14,
+      "top_in": 0.15,
+      "width_in": 9.0,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 2",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 0.35,
+      "width_in": 12.13,
+      "height_in": 0.85
+    },
+    {
+      "name": "Text 4",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 9.6,
+      "top_in": 2.55,
+      "width_in": 3.42,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 6",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 9.59,
+      "top_in": 2.97,
+      "width_in": 3.53,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 7",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 9.59,
+      "top_in": 3.27,
+      "width_in": 3.53,
+      "height_in": 0.93
+    },
+    {
+      "name": "Text 8",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 9.59,
+      "top_in": 4.02,
+      "width_in": 3.53,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 9",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 9.59,
+      "top_in": 4.32,
+      "width_in": 3.53,
+      "height_in": 0.93
+    },
+    {
+      "name": "Text 12",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.51,
+      "top_in": 6.57,
+      "width_in": 8.5,
+      "height_in": 0.7
+    },
+    {
+      "name": "Shape 13",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 7.05,
+      "width_in": 12.13,
+      "height_in": 0.0
+    },
+    {
+      "name": "Text 14",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 7.15,
+      "width_in": 4.0,
+      "height_in": 0.25
+    },
+    {
+      "name": "Text 15",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 3.67,
+      "top_in": 7.15,
+      "width_in": 6.0,
+      "height_in": 0.25
+    },
+    {
+      "name": "Text 16",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 11.73,
+      "top_in": 7.15,
+      "width_in": 1.0,
+      "height_in": 0.25
+    },
+    {
+      "name": "Table 4",
+      "type": "TABLE (19)",
+      "has_text": false,
+      "left_in": 0.51,
+      "top_in": 1.2,
+      "width_in": 8.68,
+      "height_in": 5.56
+    }
+  ],
+  "notes": "",
+  "intent": "testimonial"
+}

@@ -1,0 +1,9 @@
+<div class="stat-band">
+  {% for s in include.stats %}
+    <div class="stat-band__item{% if s.emph %} stat-band__item--emph{% endif %}">
+      <div class="stat-band__label">{{ s.label }}</div>
+      <div class="stat-band__value">{{ s.value }}</div>
+      <div class="stat-band__sub">{{ s.sub }}</div>
+    </div>
+  {% endfor %}
+</div>

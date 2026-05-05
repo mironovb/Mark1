@@ -1,0 +1,187 @@
+{
+  "slide_number": 6,
+  "slide_id": "slide_06",
+  "title": "05.",
+  "subtitle": null,
+  "body": [
+    {
+      "text": "PARTS INVENTORY",
+      "level": 0
+    },
+    {
+      "text": "What is in the assembly.",
+      "level": 0
+    },
+    {
+      "text": "ETAD 130  \u00b7  B. MIRONOV",
+      "level": 0
+    },
+    {
+      "text": "Parts Inventory",
+      "level": 0
+    },
+    {
+      "text": "6 / 13",
+      "level": 0
+    }
+  ],
+  "bullets_flat": [
+    "PARTS INVENTORY",
+    "What is in the assembly.",
+    "ETAD 130  \u00b7  B. MIRONOV",
+    "Parts Inventory",
+    "6 / 13"
+  ],
+  "images": [],
+  "tables": [
+    {
+      "rows": [
+        [
+          "ID",
+          "FILE / ITEM",
+          "QTY",
+          "DESCRIPTION"
+        ],
+        [
+          "P-01",
+          "hullside1.ipt",
+          "2",
+          "Mirrored rhomboidal side panels"
+        ],
+        [
+          "P-02",
+          "centralcabin.ipt",
+          "1",
+          "Central electronics hub"
+        ],
+        [
+          "P-03",
+          "wheeldrive.ipt",
+          "8",
+          "Drive sprocket and idler wheels"
+        ],
+        [
+          "P-04",
+          "Gearassembly.iam (sub-parts \u2013 gear1.ipt, gear2.ipt)",
+          "1",
+          "Differential gear sub-assembly"
+        ],
+        [
+          "P-05",
+          "barrod.ipt",
+          "2",
+          "Track shafts through the hull"
+        ],
+        [
+          "P-06",
+          "bracket.ipt",
+          "1",
+          "Stepper-motor mount"
+        ],
+        [
+          "EXTRA: P-07",
+          "Track link",
+          "148",
+          "Pin-link segments -\u00a0printed on Dreamer + Ender"
+        ],
+        [
+          "EXTRA: P-08",
+          "Plain rivet",
+          "150",
+          "PLA pins - soldering-iron welded into links"
+        ],
+        [
+          "P-09",
+          "Nameplate",
+          "1",
+          "Surface text added in Bambu Studio"
+        ],
+        [
+          "P-10",
+          "BMironov_TrackedMark.iam",
+          "1",
+          "Top-level assembly"
+        ]
+      ],
+      "row_count": 11,
+      "col_count": 4
+    }
+  ],
+  "charts": [],
+  "shapes_summary": [
+    {
+      "name": "Text 0",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.65,
+      "top_in": 0.21,
+      "width_in": 0.7,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 1",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 1.35,
+      "top_in": 0.21,
+      "width_in": 9.0,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 2",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 0.6,
+      "width_in": 12.13,
+      "height_in": 0.85
+    },
+    {
+      "name": "Table 0",
+      "type": "TABLE (19)",
+      "has_text": false,
+      "left_in": 0.6,
+      "top_in": 1.28,
+      "width_in": 12.13,
+      "height_in": 5.19
+    },
+    {
+      "name": "Shape 4",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 7.05,
+      "width_in": 12.13,
+      "height_in": 0.0
+    },
+    {
+      "name": "Text 5",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 7.15,
+      "width_in": 4.0,
+      "height_in": 0.25
+    },
+    {
+      "name": "Text 6",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 3.67,
+      "top_in": 7.15,
+      "width_in": 6.0,
+      "height_in": 0.25
+    },
+    {
+      "name": "Text 7",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 11.73,
+      "top_in": 7.15,
+      "width_in": 1.0,
+      "height_in": 0.25
+    }
+  ],
+  "notes": "",
+  "intent": "content"
+}

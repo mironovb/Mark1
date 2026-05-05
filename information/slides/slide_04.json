@@ -1,0 +1,575 @@
+{
+  "slide_number": 4,
+  "slide_id": "slide_04",
+  "title": "03.",
+  "subtitle": null,
+  "body": [
+    {
+      "text": "THE DRIVETRAIN",
+      "level": 0
+    },
+    {
+      "text": "How it steers: historical accuracy and single motor setupv",
+      "level": 0
+    },
+    {
+      "text": "ETAD 130  \u00b7  B. MIRONOV",
+      "level": 0
+    },
+    {
+      "text": "Drivetrain",
+      "level": 0
+    },
+    {
+      "text": "4 / 13",
+      "level": 0
+    },
+    {
+      "text": "NEMA 17",
+      "level": 0
+    },
+    {
+      "text": "stepper",
+      "level": 0
+    },
+    {
+      "text": "bevel pinion",
+      "level": 0
+    },
+    {
+      "text": "input",
+      "level": 0
+    },
+    {
+      "text": "crown gear",
+      "level": 0
+    },
+    {
+      "text": "reduction",
+      "level": 0
+    },
+    {
+      "text": "DIFFERENTIAL",
+      "level": 0
+    },
+    {
+      "text": "spider + side gears",
+      "level": 0
+    },
+    {
+      "text": "L + R outputs",
+      "level": 0
+    },
+    {
+      "text": "two independent track shafts",
+      "level": 0
+    },
+    {
+      "text": "Fig. 2   Power flow.  The crown gear drives the differential carrier; the side gears pass torque to two independent output shafts.",
+      "level": 0
+    },
+    {
+      "text": "THE PRINCIPLE",
+      "level": 0
+    },
+    {
+      "text": "How it works",
+      "level": 0
+    },
+    {
+      "text": "HISTORY",
+      "level": 0
+    },
+    {
+      "text": "How 1916 did it",
+      "level": 0
+    },
+    {
+      "text": "THIS BUILD",
+      "level": 0
+    },
+    {
+      "text": "How this build does it",
+      "level": 0
+    },
+    {
+      "text": "Differential",
+      "level": 0
+    },
+    {
+      "text": "Torque distribution",
+      "level": 0
+    },
+    {
+      "text": "TRY IT",
+      "level": 0
+    }
+  ],
+  "bullets_flat": [
+    "THE DRIVETRAIN",
+    "How it steers: historical accuracy and single motor setupv",
+    "ETAD 130  \u00b7  B. MIRONOV",
+    "Drivetrain",
+    "4 / 13",
+    "NEMA 17",
+    "stepper",
+    "bevel pinion",
+    "input",
+    "crown gear",
+    "reduction",
+    "DIFFERENTIAL",
+    "spider + side gears",
+    "L + R outputs",
+    "two independent track shafts",
+    "Fig. 2   Power flow.  The crown gear drives the differential carrier; the side gears pass torque to two independent output shafts.",
+    "THE PRINCIPLE",
+    "How it works",
+    "HISTORY",
+    "How 1916 did it",
+    "THIS BUILD",
+    "How this build does it",
+    "Differential",
+    "Torque distribution",
+    "TRY IT"
+  ],
+  "images": [
+    {
+      "path": "media/slide04_img1.jpg",
+      "content_type": "image/jpeg",
+      "width_inches": 1.16,
+      "height_inches": 1.43,
+      "left_inches": 0.86,
+      "top_inches": 2.69
+    },
+    {
+      "path": "media/slide04_img2.jpg",
+      "content_type": "image/jpeg",
+      "width_inches": 1.46,
+      "height_inches": 1.57,
+      "left_inches": 2.91,
+      "top_inches": 2.7
+    },
+    {
+      "path": "media/slide04_img3.png",
+      "content_type": "image/png",
+      "width_inches": 1.86,
+      "height_inches": 1.45,
+      "left_inches": 4.77,
+      "top_inches": 2.67
+    },
+    {
+      "path": "media/slide04_img4.png",
+      "content_type": "image/png",
+      "width_inches": 2.28,
+      "height_inches": 1.58,
+      "left_inches": 7.03,
+      "top_inches": 2.35
+    },
+    {
+      "path": "media/slide04_img5.jpg",
+      "content_type": "image/jpeg",
+      "width_inches": 2.27,
+      "height_inches": 1.96,
+      "left_inches": 9.9,
+      "top_inches": 2.3
+    },
+    {
+      "path": "media/slide04_img6.jpg",
+      "content_type": "image/jpeg",
+      "width_inches": 2.89,
+      "height_inches": 2.05,
+      "left_inches": 4.93,
+      "top_inches": 4.85
+    },
+    {
+      "path": "media/slide04_img7.jpg",
+      "content_type": "image/jpeg",
+      "width_inches": 3.13,
+      "height_inches": 1.71,
+      "left_inches": 0.6,
+      "top_inches": 5.09
+    },
+    {
+      "path": "media/slide04_img8.png",
+      "content_type": "image/png",
+      "width_inches": 2.21,
+      "height_inches": 2.18,
+      "left_inches": 10.91,
+      "top_inches": 4.65
+    },
+    {
+      "path": "media/slide04_img9.png",
+      "content_type": "image/png",
+      "width_inches": 2.28,
+      "height_inches": 2.21,
+      "left_inches": 8.38,
+      "top_inches": 4.87
+    }
+  ],
+  "tables": [],
+  "charts": [],
+  "shapes_summary": [
+    {
+      "name": "Text 0",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 0.35,
+      "width_in": 0.7,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 1",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 1.3,
+      "top_in": 0.35,
+      "width_in": 9.0,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 2",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 0.94,
+      "width_in": 12.13,
+      "height_in": 0.85
+    },
+    {
+      "name": "Shape 29",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 7.05,
+      "width_in": 12.13,
+      "height_in": 0.0
+    },
+    {
+      "name": "Text 30",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 7.15,
+      "width_in": 4.0,
+      "height_in": 0.25
+    },
+    {
+      "name": "Text 31",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 3.67,
+      "top_in": 7.15,
+      "width_in": 6.0,
+      "height_in": 0.25
+    },
+    {
+      "name": "Text 32",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 11.73,
+      "top_in": 7.15,
+      "width_in": 1.0,
+      "height_in": 0.25
+    },
+    {
+      "name": "Text 4",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.39,
+      "top_in": 2.04,
+      "width_in": 2.1,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 5",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.39,
+      "top_in": 2.44,
+      "width_in": 2.1,
+      "height_in": 0.35
+    },
+    {
+      "name": "Shape 6",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 2.52,
+      "top_in": 2.39,
+      "width_in": 0.14,
+      "height_in": 0.0
+    },
+    {
+      "name": "Text 8",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 2.69,
+      "top_in": 2.04,
+      "width_in": 1.9,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 9",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 2.69,
+      "top_in": 2.44,
+      "width_in": 1.9,
+      "height_in": 0.35
+    },
+    {
+      "name": "Shape 10",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 4.62,
+      "top_in": 2.39,
+      "width_in": 0.14,
+      "height_in": 0.0
+    },
+    {
+      "name": "Text 12",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 4.79,
+      "top_in": 2.04,
+      "width_in": 1.9,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 13",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 4.79,
+      "top_in": 2.44,
+      "width_in": 1.9,
+      "height_in": 0.35
+    },
+    {
+      "name": "Shape 14",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 6.72,
+      "top_in": 2.39,
+      "width_in": 0.14,
+      "height_in": 0.0
+    },
+    {
+      "name": "Text 16",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 6.89,
+      "top_in": 2.04,
+      "width_in": 2.6,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 17",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 6.89,
+      "top_in": 2.44,
+      "width_in": 2.6,
+      "height_in": 0.35
+    },
+    {
+      "name": "Shape 18",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 9.52,
+      "top_in": 2.39,
+      "width_in": 0.14,
+      "height_in": 0.0
+    },
+    {
+      "name": "Text 20",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 9.66,
+      "top_in": 1.77,
+      "width_in": 2.83,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 21",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 9.67,
+      "top_in": 1.97,
+      "width_in": 2.83,
+      "height_in": 0.35
+    },
+    {
+      "name": "Text 22",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.81,
+      "top_in": 4.22,
+      "width_in": 12.2,
+      "height_in": 0.3
+    },
+    {
+      "name": "Text 25",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 1.35,
+      "top_in": 4.52,
+      "width_in": 3.44,
+      "height_in": 0.3
+    },
+    {
+      "name": "Text 26",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 1.35,
+      "top_in": 4.69,
+      "width_in": 3.44,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 32",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 5.69,
+      "top_in": 4.39,
+      "width_in": 3.44,
+      "height_in": 0.3
+    },
+    {
+      "name": "Text 33",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 5.32,
+      "top_in": 4.5,
+      "width_in": 3.44,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 39",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 8.93,
+      "top_in": 4.35,
+      "width_in": 3.44,
+      "height_in": 0.3
+    },
+    {
+      "name": "Text 40",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 8.29,
+      "top_in": 4.54,
+      "width_in": 3.44,
+      "height_in": 0.4
+    },
+    {
+      "name": "Picture 28",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 0.86,
+      "top_in": 2.69,
+      "width_in": 1.16,
+      "height_in": 1.43
+    },
+    {
+      "name": "Picture 29",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 2.91,
+      "top_in": 2.7,
+      "width_in": 1.46,
+      "height_in": 1.57
+    },
+    {
+      "name": "Picture 2",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 4.77,
+      "top_in": 2.67,
+      "width_in": 1.86,
+      "height_in": 1.45
+    },
+    {
+      "name": "Picture 21",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 7.03,
+      "top_in": 2.35,
+      "width_in": 2.28,
+      "height_in": 1.58
+    },
+    {
+      "name": "Text 12",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 7.23,
+      "top_in": 1.79,
+      "width_in": 1.9,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 13",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 7.24,
+      "top_in": 1.99,
+      "width_in": 1.9,
+      "height_in": 0.35
+    },
+    {
+      "name": "Picture 30",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 9.9,
+      "top_in": 2.3,
+      "width_in": 2.27,
+      "height_in": 1.96
+    },
+    {
+      "name": "Picture 31",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 4.93,
+      "top_in": 4.85,
+      "width_in": 2.89,
+      "height_in": 2.05
+    },
+    {
+      "name": "Picture 32",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 0.6,
+      "top_in": 5.09,
+      "width_in": 3.13,
+      "height_in": 1.71
+    },
+    {
+      "name": "Picture 34",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 10.91,
+      "top_in": 4.65,
+      "width_in": 2.21,
+      "height_in": 2.18
+    },
+    {
+      "name": "Text 39",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 11.74,
+      "top_in": 4.55,
+      "width_in": 3.44,
+      "height_in": 0.3
+    },
+    {
+      "name": "Picture 36",
+      "type": "PICTURE (13)",
+      "has_text": false,
+      "left_in": 8.38,
+      "top_in": 4.87,
+      "width_in": 2.28,
+      "height_in": 2.21
+    }
+  ],
+  "notes": "",
+  "intent": "how_it_works"
+}

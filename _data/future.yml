@@ -1,0 +1,17 @@
+- heading: "Dual-stepper drive"
+  body: "One motor per track. Removes the differential's role as the only steering element and turns this into a skid-steer platform with commanded heading. The hull has the volume for it; the cabin would carry two TB6612 channels instead of one."
+
+- heading: "TPU for tracks and rivets"
+  body: "Better fatigue life, quieter operation, and rivets that bend instead of shear. PLA was the right call for a first build because it prints faster and gives clean dimensions, but it is the wrong material for any moving joint that gets cycled."
+
+- heading: "Single-machine track print"
+  body: "Reprint all 148 links on one printer. Removes the dimensional drift between the two track loops that required the tensioner."
+
+- heading: "Closed-loop feedback"
+  body: "Add an IMU and wheel encoders. Move from open-loop step counting to actual heading control. The Arduino has the pins free; the wiring has room for the extra cables."
+
+- heading: "Heat-set inserts at fastener points"
+  body: "Self-tapping into PLA strips threads after a few cycles. Brass heat-set inserts at every fastener (motor mount, side panel, electronics tray) trade a small extra step at assembly for joints that survive being unscrewed and reinstalled during testing."
+
+- heading: "Earlier use of Bambu's auto-orientation"
+  body: "Slicer-driven orientation finds support-free placements in seconds; that work was done by hand here, part by part. Doing it in the slicer from the first iteration would have caught a few overhangs before they reached the printer."

@@ -1,0 +1,110 @@
+{
+  "slide_number": 1,
+  "slide_id": "slide_01",
+  "title": "ETAD 130 FINAL PROJECT SPRING 2026",
+  "subtitle": null,
+  "body": [
+    {
+      "text": "Mark I-inspired tracked vehicle",
+      "level": 0
+    },
+    {
+      "text": "Differential gear learning and autonomous vehicle platform.",
+      "level": 0
+    },
+    {
+      "text": "A rhomboidal-hulled tracked vehicle, modeled in Autodesk Inventor,",
+      "level": 0
+    },
+    {
+      "text": "3D-printed in PLA, and assembled by hand, put into motion using Arduino-based electronics",
+      "level": 0
+    },
+    {
+      "text": "Bogdan Mironov",
+      "level": 0
+    },
+    {
+      "text": "Instrutor: Dr. Benjamin Remon",
+      "level": 0
+    }
+  ],
+  "bullets_flat": [
+    "Mark I-inspired tracked vehicle",
+    "Differential gear learning and autonomous vehicle platform.",
+    "A rhomboidal-hulled tracked vehicle, modeled in Autodesk Inventor,",
+    "3D-printed in PLA, and assembled by hand, put into motion using Arduino-based electronics",
+    "Bogdan Mironov",
+    "Instrutor: Dr. Benjamin Remon"
+  ],
+  "images": [],
+  "tables": [],
+  "charts": [],
+  "shapes_summary": [
+    {
+      "name": "Text 0",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 0.6,
+      "width_in": 8.0,
+      "height_in": 0.35
+    },
+    {
+      "name": "Text 1",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.49,
+      "top_in": 2.17,
+      "width_in": 13.34,
+      "height_in": 1.21
+    },
+    {
+      "name": "Text 2",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.49,
+      "top_in": 3.33,
+      "width_in": 12.0,
+      "height_in": 1.2
+    },
+    {
+      "name": "Text 3",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 4.6,
+      "width_in": 12.0,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 4",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 0.6,
+      "top_in": 5.0,
+      "width_in": 12.0,
+      "height_in": 0.4
+    },
+    {
+      "name": "Text 6",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 3.37,
+      "top_in": 6.48,
+      "width_in": 6.0,
+      "height_in": 0.35
+    },
+    {
+      "name": "Text 7",
+      "type": "AUTO_SHAPE (1)",
+      "has_text": true,
+      "left_in": 3.37,
+      "top_in": 6.83,
+      "width_in": 6.0,
+      "height_in": 0.3
+    }
+  ],
+  "notes": "",
+  "intent": "hero"
+}

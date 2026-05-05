@@ -1,0 +1,181 @@
+{
+  "source_file": "deck.pptx",
+  "slide_count": 14,
+  "theme_file": "theme.json",
+  "raw_text_file": "raw_text.md",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_id": "slide_01",
+      "title": "ETAD 130 FINAL PROJECT SPRING 2026",
+      "intent": "hero",
+      "json_path": "slides/slide_01.json",
+      "notes_path": "notes/slide_01.md",
+      "image_count": 0,
+      "has_tables": false,
+      "has_charts": false
+    },
+    {
+      "slide_number": 2,
+      "slide_id": "slide_02",
+      "title": "01.",
+      "intent": "pricing",
+      "json_path": "slides/slide_02.json",
+      "notes_path": "notes/slide_02.md",
+      "image_count": 1,
+      "has_tables": false,
+      "has_charts": false
+    },
+    {
+      "slide_number": 3,
+      "slide_id": "slide_03",
+      "title": "02.",
+      "intent": "contact",
+      "json_path": "slides/slide_03.json",
+      "notes_path": "notes/slide_03.md",
+      "image_count": 2,
+      "has_tables": false,
+      "has_charts": false
+    },
+    {
+      "slide_number": 4,
+      "slide_id": "slide_04",
+      "title": "03.",
+      "intent": "how_it_works",
+      "json_path": "slides/slide_04.json",
+      "notes_path": "notes/slide_04.md",
+      "image_count": 9,
+      "has_tables": false,
+      "has_charts": false
+    },
+    {
+      "slide_number": 5,
+      "slide_id": "slide_05",
+      "title": "04.",
+      "intent": "content",
+      "json_path": "slides/slide_05.json",
+      "notes_path": "notes/slide_05.md",
+      "image_count": 1,
+      "has_tables": false,
+      "has_charts": false
+    },
+    {
+      "slide_number": 6,
+      "slide_id": "slide_06",
+      "title": "05.",
+      "intent": "content",
+      "json_path": "slides/slide_06.json",
+      "notes_path": "notes/slide_06.md",
+      "image_count": 0,
+      "has_tables": true,
+      "has_charts": false
+    },
+    {
+      "slide_number": 7,
+      "slide_id": "slide_07",
+      "title": "06.",
+      "intent": "content",
+      "json_path": "slides/slide_07.json",
+      "notes_path": "notes/slide_07.md",
+      "image_count": 6,
+      "has_tables": false,
+      "has_charts": false
+    },
+    {
+      "slide_number": 8,
+      "slide_id": "slide_08",
+      "title": "07.",
+      "intent": "testimonial",
+      "json_path": "slides/slide_08.json",
+      "notes_path": "notes/slide_08.md",
+      "image_count": 0,
+      "has_tables": true,
+      "has_charts": false
+    },
+    {
+      "slide_number": 9,
+      "slide_id": "slide_09",
+      "title": "Part Simulation Highlights \u2013 main hull",
+      "intent": "content",
+      "json_path": "slides/slide_09.json",
+      "notes_path": "notes/slide_09.md",
+      "image_count": 4,
+      "has_tables": false,
+      "has_charts": false
+    },
+    {
+      "slide_number": 10,
+      "slide_id": "slide_10",
+      "title": "Part Simulation Highlights \u2013 main driving wheel",
+      "intent": "content",
+      "json_path": "slides/slide_10.json",
+      "notes_path": "notes/slide_10.md",
+      "image_count": 2,
+      "has_tables": false,
+      "has_charts": false
+    },
+    {
+      "slide_number": 11,
+      "slide_id": "slide_11",
+      "title": "09.",
+      "intent": "pricing",
+      "json_path": "slides/slide_11.json",
+      "notes_path": "notes/slide_11.md",
+      "image_count": 0,
+      "has_tables": true,
+      "has_charts": false
+    },
+    {
+      "slide_number": 12,
+      "slide_id": "slide_12",
+      "title": "08.",
+      "intent": "content",
+      "json_path": "slides/slide_12.json",
+      "notes_path": "notes/slide_12.md",
+      "image_count": 0,
+      "has_tables": true,
+      "has_charts": false
+    },
+    {
+      "slide_number": 13,
+      "slide_id": "slide_13",
+      "title": "11.",
+      "intent": "content",
+      "json_path": "slides/slide_13.json",
+      "notes_path": "notes/slide_13.md",
+      "image_count": 1,
+      "has_tables": false,
+      "has_charts": false
+    },
+    {
+      "slide_number": 14,
+      "slide_id": "slide_14",
+      "title": "Thank you.",
+      "intent": "cta_or_closing",
+      "json_path": "slides/slide_14.json",
+      "notes_path": "notes/slide_14.md",
+      "image_count": 0,
+      "has_tables": false,
+      "has_charts": false
+    }
+  ],
+  "intent_summary": {
+    "hero": 1,
+    "pricing": 2,
+    "contact": 1,
+    "how_it_works": 1,
+    "content": 7,
+    "testimonial": 1,
+    "cta_or_closing": 1
+  },
+  "agent_hints": {
+    "read_first": [
+      "manifest.json",
+      "theme.json",
+      "raw_text.md"
+    ],
+    "per_slide_detail": "slides/slide_NN.json",
+    "media_root": "media/",
+    "intent_field_is_a_hint": true
+  }
+}

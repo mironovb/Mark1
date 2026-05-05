@@ -1,0 +1,22 @@
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__col">
+      <div class="footer__label">Author</div>
+      <div class="footer__value">{{ site.data.site.author }}</div>
+    </div>
+    <div class="footer__col">
+      <div class="footer__label">Course</div>
+      <div class="footer__value">{{ site.data.site.course }} · {{ site.data.site.semester }}</div>
+    </div>
+    <div class="footer__col">
+      <div class="footer__label">Institution</div>
+      <div class="footer__value">{{ site.data.site.institution }}</div>
+    </div>
+    <div class="footer__col">
+      <div class="footer__label">Source</div>
+      <div class="footer__value"><a href="{{ site.data.site.repo_url }}">github.com/mironovb/Mark1</a></div>
+    </div>
+  </div>
+  <div class="footer__rule"></div>
+  <p class="footer__legal">Built with Jekyll. Deployed via GitHub Actions to GitHub Pages.</p>
+</footer>
