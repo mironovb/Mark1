@@ -1,6 +1,6 @@
 # Mark 1 — ETAD 130 Final Project Portfolio
 
-Source for the portfolio site documenting B. Mironov's ETAD 130 final project — a 1916-silhouette tracked vehicle with a printed bevel-gear differential, driven by an Arduino through a single NEMA 17 stepper.
+Source for the portfolio site documenting Bogdan Mironov's ETAD 130 final project — a 1916-silhouette tracked vehicle with a printed bevel-gear differential, driven by an Arduino through a single NEMA 17 stepper.
 
 **Live site:** https://mironovb.github.io/Mark1/
 

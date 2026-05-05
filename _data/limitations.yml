@@ -1,5 +1,5 @@
 - heading: "One-sided track tensioner"
-  body: "The two track loops were printed across two different machines (Dreamer and Ender). Dimensional drift between them left one loop slightly looser, so a printed tensioner was added on that side. The tensioner is a fix, not a feature — the next build prints all links on one machine."
+  body: "Small dimensional variation between the two batches of track links added up across each loop. One assembled loop came out about 1.5 % longer than the other. A printed tensioner — a flat tongue inside the looser loop — takes up the slack. The fix works; the tensioner is a part the design didn't anticipate."
 
 - heading: "Single-motor differential"
   body: "Both tracks share one input. There is no active steering. The differential responds to load — if the inside track meets more resistance during a turn, the outside speeds up — but the controller cannot command a turn. Today the vehicle drives forward, slow, and steers passively."

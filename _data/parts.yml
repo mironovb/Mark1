@@ -44,7 +44,7 @@
   name: "Track link"
   file: "(extra)"
   qty: 148
-  description: "Pin-link track segments. Printed on the Dreamer and Ender machines. Each link has two pin holes for plain rivets."
+  description: "Pin-link track segments. Printed in batches; each link has two pin holes for plain rivets."
   drawing_sheet: null
   group: "tracks"
 - id: P-08

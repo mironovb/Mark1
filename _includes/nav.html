@@ -5,6 +5,10 @@
       <span class="nav__brand-mark">M1</span>
       <span class="nav__brand-text">{{ site.data.site.course }} · {{ site.data.site.author }}</span>
     </a>
+    <input type="checkbox" id="nav-toggle" class="nav__toggle" aria-hidden="true">
+    <label for="nav-toggle" class="nav__burger" aria-label="Toggle navigation menu">
+      <span></span><span></span><span></span>
+    </label>
     <nav class="nav__links" aria-label="Section navigation">
       {% for item in site.data.nav %}
         <a href="{{ '/#' | append: item.id | relative_url }}">{{ item.label }}</a>

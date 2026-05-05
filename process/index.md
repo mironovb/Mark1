@@ -60,7 +60,7 @@ lede: "Slicer screenshots from Bambu Studio, bench shots during assembly, and th
   <h2>Issues encountered</h2>
 
   <h3>Track loops printed at different sizes</h3>
-  <p>The 148 track links printed across two machines (Dreamer and Ender) because the Bambu was tied up with the hull. The two machines did not run identically on small features. One loop came out about 1.5 % longer than the other after assembly. A printed tensioner — a flat tongue inside the loop — took up the slack.</p>
+  <p>The 148 track links printed in batches across multiple plates. Small dimensional variation between batches added up across the full loop length and left one of the two assembled loops about 1.5 % longer than the other. A printed tensioner — a flat tongue inside the loop — took up the slack on the looser side.</p>
 
   <h3>Bevel gears bound at first dry-fit</h3>
   <p>The crown gear's bore was Ø0.288 in printed, against the Ø0.300 in carrier shaft design. The crown wouldn't seat on the carrier. Drilled out to size with a hand drill at low RPM. Same fix on the pinion-to-motor-shaft fit.</p>

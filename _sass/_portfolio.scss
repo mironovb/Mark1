@@ -137,11 +137,11 @@ pre {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(255,255,255,0.92);
+  background: rgba(255,255,255,0.96);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-bottom: $rule;
-  height: $nav-h;
+  min-height: $nav-h;
   display: flex;
   align-items: center;
 }
@@ -154,7 +154,9 @@ pre {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: $s4;
+  gap: $s3;
+  position: relative;
+  min-height: $nav-h;
 }
 
 .nav__brand {
@@ -167,6 +169,7 @@ pre {
   font-weight: 600;
   white-space: nowrap;
   flex-shrink: 0;
+  min-width: 0;
 }
 
 .nav__brand:hover {
@@ -186,25 +189,79 @@ pre {
   font-size: $small;
   font-family: $mono;
   font-weight: 500;
+  flex-shrink: 0;
 }
 
 .nav__brand-text {
   font-size: $small;
   letter-spacing: 0.02em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// Hidden checkbox drives the hamburger toggle (CSS-only)
+.nav__toggle {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+
+.nav__burger {
+  display: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-left: auto;
+  border-radius: $radius;
+  position: relative;
+}
+
+.nav__burger:hover { background: $soft; }
+
+.nav__burger span {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  height: 2px;
+  background: $ink;
+  border-radius: 1px;
+  transition: transform 200ms ease, opacity 200ms ease, top 200ms ease;
+}
+
+.nav__burger span:nth-child(1) { top: 11px; }
+.nav__burger span:nth-child(2) { top: 17px; }
+.nav__burger span:nth-child(3) { top: 23px; }
+
+.nav__toggle:focus-visible ~ .nav__burger {
+  outline: 2px solid $eucal;
+  outline-offset: 2px;
+}
+
+.nav__toggle:checked ~ .nav__burger span:nth-child(1) {
+  top: 17px;
+  transform: rotate(45deg);
+}
+.nav__toggle:checked ~ .nav__burger span:nth-child(2) {
+  opacity: 0;
+}
+.nav__toggle:checked ~ .nav__burger span:nth-child(3) {
+  top: 17px;
+  transform: rotate(-45deg);
 }
 
 .nav__links {
   display: flex;
   gap: $s3;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
   white-space: nowrap;
-  flex: 1;
-  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
 }
-
-.nav__links::-webkit-scrollbar { display: none; }
 
 .nav__links a {
   text-decoration: none;
@@ -220,8 +277,44 @@ pre {
   text-decoration: none;
 }
 
+// Below tablet: hamburger drawer
 @media (max-width: $bp-tablet) {
   .nav__brand-text { display: none; }
+
+  .nav__burger { display: flex; }
+
+  .nav__links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    background: $paper;
+    border-bottom: $rule;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    padding: $s2 $gutter $s3;
+  }
+
+  .nav__toggle:checked ~ .nav__links {
+    display: flex;
+  }
+
+  .nav__links a {
+    color: $ink;
+    font-size: $body;
+    padding: $s2 0;
+    border-bottom: 1px solid $line;
+  }
+
+  .nav__links a:last-child { border-bottom: none; }
+}
+
+@media (max-width: $bp-mobile) {
+  .nav__inner { padding: 0 $s3; }
+  .nav__links { padding: $s2 $s3 $s3; }
 }
 
 // === Layout shells ===

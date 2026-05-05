@@ -7,5 +7,5 @@
 - heading: "Loose tabs → tighter slot fits"
   body: "The first hull-to-cabin joint used loose tabs sized for the design dimensions. Once the panels printed at 0.118 in instead of the 0.110 in design, the tabs rattled in their slots. The slots were narrowed in the next revision so the printed thickness fit firmly without sanding."
 
-- heading: "Single-machine tracks → mixed Dreamer + Ender"
-  body: "Plan was to print all 148 links on one printer. The Bambu was tied up with hull parts, so the link batches went to the Dreamer and Ender. The two machines ran a few percent apart on small features — enough that one track loop ended up looser than the other and a printed tensioner was added on that side."
+- heading: "Open electronics tray → integrated cabin"
+  body: "The first cabin sketch held the Arduino on a flat tray that bolted onto the side panels. The tray flexed under the motor's reaction torque and pushed the bevel pinion off-axis. Folding the tray into a U-channel cabin with two raised end walls turned the electronics carrier into the structural spine between the two side panels."

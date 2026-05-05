@@ -1,11 +1,5 @@
-- { id: overview,     label: "Overview" }
-- { id: design,       label: "Design" }
-- { id: inspirations, label: "Inspirations" }
-- { id: drivetrain,   label: "Drivetrain" }
-- { id: composition,  label: "Composition" }
-- { id: visuals,      label: "Visuals" }
-- { id: dimensions,   label: "Dimensions" }
-- { id: process,      label: "Process" }
-- { id: cost,         label: "Cost" }
-- { id: reflection,   label: "Reflection" }
-- { id: references,   label: "References" }
+- { id: design,      label: "Design" }
+- { id: drivetrain,  label: "Drivetrain" }
+- { id: dimensions,  label: "Dimensions" }
+- { id: cost,        label: "Cost" }
+- { id: reflection,  label: "Reflection" }
