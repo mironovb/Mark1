@@ -575,7 +575,7 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
     </div>
 
     <h3 style="margin-top: 3rem;">Build photos</h3>
-    <p class="prose">Bench shots from the build, including the controller soldering work and the printbed during a track print pass on the Ender. The Bambu carried most parts. The Ender ran a small batch of tracks during one of the busy nights.</p>
+    <p class="prose">Bench shots from the build, including the controller soldering work and the printbed during a track print pass on the Ender.</p>
 
     <div class="cols cols--3">
       <figure class="figure">
