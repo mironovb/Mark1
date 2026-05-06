@@ -3,7 +3,7 @@ layout: page
 title: "Drawings"
 permalink: /drawings/
 eyebrow: "Seven sheets"
-lede: "The full BMironov_Tracked drawing set. One sheet per part plus the top-level isometric. Click any tile for the full sized view, the sheet metadata, and the dimensions on that sheet."
+lede: "The full BMironov_Tracked drawing set. One sheet per part plus the top-level isometric. Each tile opens the bigger sheet, the metadata, and the dimensions on that sheet."
 ---
 
 <div class="drawings-grid">
@@ -64,4 +64,4 @@ lede: "The full BMironov_Tracked drawing set. One sheet per part plus the top-le
   </a>
 </div>
 
-<p class="prose"><strong>Source files:</strong> <code>BMironov_Tracked.dwg</code> and <code>BMironov_TrackedFull.pdf</code>. The drawing set is generated from the top-level Inventor assembly <code>BMironov_TrackedMark.iam</code>.</p>
+<p class="prose"><strong>Source files:</strong> <code>BMironov_Tracked.dwg</code> and <code>BMironov_TrackedFull.pdf</code>. I drew the sheets from <code>BMironov_TrackedMark.iam</code>, my top-level Inventor assembly.</p>

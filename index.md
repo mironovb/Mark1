@@ -69,7 +69,7 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
 
 <section id="inspirations" class="section section--soft">
   <div class="wrap">
-    {% include section-header.html num="02" label="Inspirations" title="An old shape, picked because it works." sub="The hull comes from a 1916 supply tracked vehicle. The shape was not nostalgia. It was the smallest set of changes that gave the build the ground contact length it needed." %}
+    {% include section-header.html num="02" label="Inspirations" title="An old shape, picked because it works." sub="The hull comes from a 1916 supply tracked vehicle. It was the smallest set of changes that gave the build the ground contact length it needed." %}
 
     <div class="cols cols--2">
       <figure class="figure">
@@ -258,7 +258,7 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
 
 <section id="visuals" class="section">
   <div class="wrap">
-    {% include section-header.html num="05" label="Visual documentation" title="Every drawing on the main page, plus exploded and isometric views." sub="The seven sheets below come straight from the BMironov_Tracked drawing set. Click any sheet to open the full sized view, the dimensions on that sheet, and the part it covers." %}
+    {% include section-header.html num="05" label="Visual documentation" title="Listing of the drawings." %}
 
     <figure class="figure figure--wide">
       <img src="{{ '/assets/images/exploded-leaders.png' | relative_url }}" alt="CAD isometric of the full assembly with leader lines pulling each part group out to the side. Two side panels, four wheels, two track shafts, central cabin, motor bracket, and bevel gear pair. Each leader is numbered to a parts list.">
@@ -266,7 +266,7 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
     </figure>
 
     <h3 style="margin-top: 3rem;">All seven drawing sheets</h3>
-    <p class="prose">Every sheet from the drawing set, shown at thumbnail size. The dimensions, scale, and part details for each sheet sit one click away. The set is generated from the top-level Inventor assembly file.</p>
+    <p class="prose">Here are the seven sheets at thumbnail size. Each tile opens the full sheet with its dimensions, scale, and part details. I drew the whole set from one Inventor assembly file.</p>
 
     <div class="drawings-grid">
       <a class="drawing-tile" href="{{ '/drawings/sheet-1/' | relative_url }}">
@@ -320,7 +320,7 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
       </a>
     </div>
 
-    <p class="prose"><strong>Source files:</strong> <code>BMironov_Tracked.dwg</code> and <code>BMironov_TrackedFull.pdf</code>. The drawing set is generated from <code>BMironov_TrackedMark.iam</code>, the top-level Inventor assembly.</p>
+    <p class="prose"><strong>Source files:</strong> <code>BMironov_Tracked.dwg</code> and <code>BMironov_TrackedFull.pdf</code>. I drew the sheets from <code>BMironov_TrackedMark.iam</code>, my top-level Inventor assembly.</p>
 
     <h3 style="margin-top: 3rem;">Drawing snapshots from the design slides</h3>
     <p class="prose">Smaller views pulled from the presentation. The same parts that appear on the formal sheets, shown in working CAD form during the design rounds.</p>
@@ -336,7 +336,7 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
       </figure>
       <figure class="figure">
         <img src="{{ '/assets/images/exploded-cad.jpg' | relative_url }}" alt="CAD exploded view of the assembly: two rhomboidal side panels, central cabin, four wheels, two shafts, bevel gear pair, and motor bracket pulled apart along their assembly axes.">
-        <figcaption>Working exploded view, generated from BMironov_TrackedMark.iam.</figcaption>
+        <figcaption>My working exploded view from the assembly file.</figcaption>
       </figure>
     </div>
 
@@ -354,6 +354,9 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
         <figcaption>Cabin front view from the assembly file. The U-channel profile that the side panels seat into.</figcaption>
       </figure>
     </div>
+
+    <h3 style="margin-top: 3rem;">Drawing descriptions</h3>
+    <p class="prose">A short note for each of the six drawn parts. What it does, the main numbers on the sheet, and how it prints.</p>
 
     <div class="cols cols--2">
       <div class="prose">
