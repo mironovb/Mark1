@@ -586,6 +586,20 @@ main { display: block; }
 .figure--wide img { max-width: 100%; }
 .figure--inset { max-width: 480px; }
 
+.figure--bleed {
+  margin-left: -$s4;
+  margin-right: -$s4;
+}
+.figure--bleed img {
+  width: 100%;
+  display: block;
+  background: $paper;
+  padding: $s2;
+}
+@media (max-width: $bp-tablet) {
+  .figure--bleed { margin-left: -$s2; margin-right: -$s2; }
+}
+
 // === Two-column / multi-column generic ===
 
 .cols {

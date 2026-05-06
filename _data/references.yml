@@ -1,23 +1,23 @@
 - key: adafruit
   citation: "Adafruit Industries (2025). TB6612 1.2A DC and Stepper Motor Driver. learn.adafruit.com"
-  used_for: "Driver wiring and step pulse logic"
+  used_for: "Pin-out and wiring guide for the TB6612 driver board. I followed the AIN1, AIN2, BIN1, and BIN2 connections to the Arduino, and the VM and VCC supply notes, when I built the breadboard. The page also gave me the safe step pulse timing that the driver expects."
 
 - key: arduino
   citation: "Arduino (n.d.). Stepper Library Reference. arduino.cc/en/Reference/Stepper"
-  used_for: "Step counting and step direction control"
+  used_for: "Reference for the Stepper class on the Arduino UNO. The library gave me a ready-made step counter, a setSpeed method in RPM, and a step direction control. My open loop drive code wraps that library and counts pulses to the carrier."
 
 - key: wong
   citation: "Wong, J. Y. (2008). Theory of Ground Vehicles, 4th edition. John Wiley and Sons."
-  used_for: "Track vehicle steering theory and ground contact length effects"
+  used_for: "Textbook chapter on tracked vehicle steering. I used it to check the three steering options against my hardware (skid, brake band, hydrostatic) and to size the ground contact length for a low ground pressure on a slow demonstrator. The section on differential behavior also helped me set the bevel pair ratio."
 
 - key: autodesk
   citation: "Autodesk (n.d.). Inventor Help on Assemblies and Drawings. help.autodesk.com"
-  used_for: "Assembly constraints and the seven-sheet drawing set"
+  used_for: "Step by step pages for assembly constraints, exploded views, and the multi-sheet drawing template. I followed those pages when I built the seven-sheet drawing set from BMironov_TrackedMark.iam, including the parts list and the leader callouts on Sheet 1."
 
 - key: bambu
   citation: "Bambu Lab (n.d.). Bambu Studio User Manual. bambulab.com"
-  used_for: "Slicing settings, time and mass estimates, on-surface text"
+  used_for: "Slicer manual that I used for the orientation, the per-plate time and mass estimates, and the text-on-surface tool that printed the Bogdan nameplate. The manual also helped me confirm that no support was needed for the parts I oriented flat."
 
 - key: mark1_history
   citation: "Imperial War Museum (n.d.). Mark I Tank Object Records. iwm.org.uk"
-  used_for: "Silhouette reference for the rhomboidal hull form from 1916"
+  used_for: "Photo and dimensional records of the 1916 vehicle. I used the museum's side view and overall length to set the rhomboidal silhouette of my hull side panels. I did not copy the inside layout, only the outside profile."

@@ -42,18 +42,16 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
   <div class="wrap">
     {% include section-header.html num="01" label="Design journey" title="What it is, and the choices that shaped it." sub="The build sets a 1916 hull silhouette on top of a modern drivetrain. One stepper motor drives two tracks through a real differential. Getting to that layout took a few rounds." %}
 
-    <div class="cols cols--asym">
-      <div class="prose">
-        <p>The vehicle is a tracked platform. It has a central differential, a single NEMA 17 stepper, and an Arduino UNO. The Arduino runs open loop step control. Two side panels carry the chassis. A cabin between them holds the electronics. Two track shafts pass through the side panels and turn four drive wheels under 148 hand-welded track links.</p>
-        <p>The shape is borrowed. It is the rhomboidal silhouette from a 1916 supply tracked vehicle. The mechanics are not borrowed. The 1916 vehicle steered with brake bands across an epicyclic gear. This build steers passively through a bevel gear differential. The electrical and control side is left open on purpose, ready for a closed loop upgrade.</p>
-        <p>The choices below are the ones that changed between the first sketch and the version on the bench.</p>
-      </div>
-
-      <figure class="figure">
-        <img src="{{ '/media/labeledexplodedview.png' | relative_url }}" alt="Labeled CAD exploded view of the assembly. Numbered callouts list hullside1.ipt, centralcabin.ipt, wheeldrive.ipt, gearassembly.iam, barrod.ipt, and bracket.ipt.">
-        <figcaption>Labeled exploded view of the core structural design. Six numbered callouts match the six file names on the right.</figcaption>
-      </figure>
+    <div class="prose">
+      <p>The vehicle is a tracked platform. It has a central differential, a single NEMA 17 stepper, and an Arduino UNO. The Arduino runs open loop step control. Two side panels carry the chassis. A cabin between them holds the electronics. Two track shafts pass through the side panels and turn four drive wheels under 148 hand-welded track links.</p>
+      <p>The shape is borrowed. It is the rhomboidal silhouette from a 1916 supply tracked vehicle. The mechanics are not borrowed. The 1916 vehicle steered with brake bands across an epicyclic gear. This build steers passively through a bevel gear differential. The electrical and control side is left open on purpose, ready for a closed loop upgrade.</p>
+      <p>The choices below are the ones that changed between the first sketch and the version on the bench.</p>
     </div>
+
+    <figure class="figure figure--wide figure--bleed">
+      <img src="{{ '/media/labeledexplodedview.png' | relative_url }}" alt="Labeled CAD exploded view of the assembly. Numbered callouts list hullside1.ipt, centralcabin.ipt, wheeldrive.ipt, gearassembly.iam, barrod.ipt, and bracket.ipt.">
+      <figcaption>Labeled exploded view of the core structural design. Six numbered callouts match the six file names on the right.</figcaption>
+    </figure>
 
     <div class="decisions">
       {% for c in site.data.changes %}
@@ -244,7 +242,7 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
             <td data-label="File"><code>{{ p.file }}</code></td>
             <td data-label="Qty" class="num">{{ p.qty }}</td>
             <td data-label="Group">{{ p.group | capitalize }}</td>
-            <td data-label="Sheet">{% if p.drawing_sheet %}<a href="{{ '/drawings/sheet-' | append: p.drawing_sheet | append: '/' | relative_url }}">Sheet {{ p.drawing_sheet }}</a>{% else %}-{% endif %}</td>
+            <td data-label="Sheet">{% if p.drawing_sheet %}<a href="{{ '/drawings/sheet-' | append: p.drawing_sheet | append: '/' | relative_url }}">Sheet {{ p.drawing_sheet }}</a>{% else %}extra part{% endif %}</td>
           </tr>
           {% endfor %}
         </tbody>
@@ -252,8 +250,8 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
     </div>
 
     <figure class="figure" style="margin-top: 3rem;">
-      <img src="{{ '/assets/images/vehicle-top.png' | relative_url }}" alt="Top-down photo of the assembled vehicle. The two side panels frame a yellow electronics tub. Inside the tub sit the stepper motor, the breadboard, and the jumper wires. Track loops on either side.">
-      <figcaption>Top view. The cabin is open on purpose. The differential and the electronics are visible at any time during a demo.</figcaption>
+      <img src="{{ '/media/newtopview.jpeg' | relative_url }}" alt="Top-down photo of the assembled cabin. White bevel gear pair on top of the black NEMA 17 stepper. A red and green track shaft runs left to right. A black USB battery sits at upper left. A breadboard with a small driver board and a red controller PCB sit below. Blue and red track links wrap both sides.">
+      <figcaption>Top view. The cabin is open on purpose. The bevel gear pair, the stepper, and the controller are all visible during a demo.</figcaption>
     </figure>
   </div>
 </section>
@@ -722,13 +720,17 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
 
 <section id="references" class="section section--soft">
   <div class="wrap">
-    {% include section-header.html num="11" label="References" title="Sources used in the build." sub="Hardware references for the driver and the stepper library. A textbook reference for tracked vehicle steering theory. Software documentation for Inventor and Bambu Studio. A historical reference for the hull silhouette." %}
+    {% include section-header.html num="11" label="References" title="Sources used in the build." sub="Six sources, grouped by what they helped me do. Two hardware references for the motor driver and the stepper code. One textbook for tracked vehicle steering theory. Two software manuals for Inventor and Bambu Studio. One historical record for the hull silhouette." %}
+
+    <div class="prose">
+      <p>How to read each entry. The first line is the citation in author, year, title, and source format. The second line, marked <strong>Used for</strong>, says what part of the build I took from that source and where it shows up. If the source is online, the citation ends with the domain so you can find the page. Print sources end with the publisher.</p>
+    </div>
 
     <ol class="refs">
       {% for r in site.data.references %}
       <li>
         {{ r.citation }}
-        <span class="used-for">Used for: {{ r.used_for }}</span>
+        <span class="used-for"><strong>Used for:</strong> {{ r.used_for }}</span>
       </li>
       {% endfor %}
     </ol>
@@ -737,11 +739,11 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
 
 <section id="tryit" class="section">
   <div class="wrap">
-    {% include section-header.html num="12" label="Try it" title="Scan to open this portfolio." sub="A short link, encoded as a QR code. Point a phone camera at the code to open the live site." %}
+    {% include section-header.html num="12" label="Try it" title="Scan for the differential GIF." sub="A QR code that opens an animated GIF showing the differential at work. Point a phone camera at the code. The GIF shows the spider gears walking between the two side gears as the carrier rotates." %}
 
     <figure class="figure figure--inset" style="margin: 0 auto;">
       <img src="{{ '/media/tryitgifqr.png' | relative_url }}" alt="A QR code labeled TRY IT in green letters at the top. Standard square QR pattern below.">
-      <figcaption>QR code for the live portfolio. The label reads TRY IT in green at the top.</figcaption>
+      <figcaption>QR code that links to a GIF of the differential function. The label reads TRY IT in green at the top.</figcaption>
     </figure>
   </div>
 </section>

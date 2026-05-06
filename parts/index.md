@@ -24,7 +24,7 @@ lede: "Every part in the assembly with its file name, quantity, and what it does
         <td data-label="Part"><strong>{{ p.name }}</strong></td>
         <td data-label="File"><code>{{ p.file }}</code></td>
         <td data-label="Qty" class="num">{{ p.qty }}</td>
-        <td data-label="Sheet">{% if p.drawing_sheet %}<a href="{{ '/drawings/sheet-' | append: p.drawing_sheet | append: '/' | relative_url }}">Sheet {{ p.drawing_sheet }}</a>{% else %}-{% endif %}</td>
+        <td data-label="Sheet">{% if p.drawing_sheet %}<a href="{{ '/drawings/sheet-' | append: p.drawing_sheet | append: '/' | relative_url }}">Sheet {{ p.drawing_sheet }}</a>{% else %}extra part{% endif %}</td>
       </tr>
       {% endfor %}
     </tbody>
