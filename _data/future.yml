@@ -1,17 +1,17 @@
-- heading: "Dual-stepper drive"
-  body: "One motor per track. Removes the differential's role as the only steering element and turns this into a skid-steer platform with commanded heading. The hull has the volume for it; the cabin would carry two TB6612 channels instead of one."
+- heading: "Two stepper motors"
+  body: "One motor per track. The differential would no longer be the only steering element. The vehicle becomes a skid-steer platform with a commanded heading. The hull has the room. The cabin would carry two TB6612 channels instead of one."
 
 - heading: "TPU for tracks and rivets"
-  body: "Better fatigue life, quieter operation, and rivets that bend instead of shear. PLA was the right call for a first build because it prints faster and gives clean dimensions, but it is the wrong material for any moving joint that gets cycled."
+  body: "Better fatigue life. Quieter motion. Rivets that bend instead of shear. PLA was the right call for a first build because it prints fast and gives clean dimensions. It is the wrong material for any moving joint that gets cycled."
 
-- heading: "Tighter batch tolerances on the tracks"
-  body: "The two assembled track loops came out about 1.5 % apart in length. Printing all 148 links in one continuous batch — same plate, same nozzle pass, same cooldown — would close the gap and remove the need for a tensioner."
+- heading: "Tighter tolerances on the track batches"
+  body: "The two assembled loops came out about 1.5 percent apart in length. Printing all 148 links in one continuous batch on the same plate, with the same nozzle pass and the same cooldown, would close that gap. The tensioner would not be needed."
 
-- heading: "Closed-loop feedback"
-  body: "Add an IMU and wheel encoders. Move from open-loop step counting to actual heading control. The Arduino has the pins free; the wiring has room for the extra cables."
+- heading: "Closed loop feedback"
+  body: "Add an IMU and wheel encoders. Move from open loop step counting to real heading control. The Arduino has the pins free. The wiring has room for the extra cables."
 
-- heading: "Heat-set inserts at fastener points"
-  body: "Self-tapping into PLA strips threads after a few cycles. Brass heat-set inserts at every fastener (motor mount, side panel, electronics tray) trade a small extra step at assembly for joints that survive being unscrewed and reinstalled during testing."
+- heading: "Heat-set inserts at the fasteners"
+  body: "Self-tapping into PLA strips threads after a few cycles. Brass heat-set inserts at every fastener point trade a small extra step at assembly for joints that survive being unscrewed and reinstalled during testing. That covers the motor mount, the side panels, and the electronics tray."
 
-- heading: "Earlier use of Bambu Studio's auto-orientation"
-  body: "Slicer-driven orientation finds support-free placements in seconds; that work was done by hand here, part by part. Doing it in the slicer from the first iteration would have caught a few overhangs before they reached the printer."
+- heading: "Earlier use of auto-orientation in Bambu Studio"
+  body: "The slicer can find support-free placements in seconds. I did that work by hand here, part by part. Doing it in the slicer from the first round would have caught a few overhangs before they reached the printer."

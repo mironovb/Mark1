@@ -3,7 +3,7 @@ groups:
   - { name: "Central cabin",          qty: 1,   mass_g: 150, pct: 15 }
   - { name: "Drive and idler wheels", qty: 4,   mass_g: 280, pct: 28 }
   - { name: "Bevel gear assembly",    qty: 1,   mass_g: 80,  pct: 8 }
-  - { name: "Track shafts + bracket", qty: 4,   mass_g: 105, pct: 11 }
+  - { name: "Track shafts and bracket", qty: 4, mass_g: 105, pct: 11 }
   - { name: "Track links",            qty: 148, mass_g: 165, pct: 17 }
   - { name: "Plain rivets",           qty: 150, mass_g: 30,  pct: 3 }
 
@@ -14,8 +14,8 @@ waste_pct: 0
 
 zero_waste_reasons:
   - heading: "Print orientation"
-    body: "Every part placed flat-side-down or on its widest face. No overhangs steeper than 45°, so no support material was needed."
-  - heading: "Single-color PLA"
-    body: "One spool, one color, one nozzle. No purge towers and no filament-change waste."
+    body: "Every part sat flat side down or on its widest face. No overhangs were steeper than 45 degrees, so no support material was needed."
+  - heading: "Single color PLA"
+    body: "One spool, one color, one nozzle. There were no purge towers and no waste from filament changes."
   - heading: "No failed prints"
-    body: "Each part came off the bed first try. Tolerances were checked on small witness prints before committing to the larger pieces."
+    body: "Each part came off the bed on the first try. I checked tolerances on small witness prints before I committed to the larger pieces."

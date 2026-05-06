@@ -5,7 +5,7 @@ print_time:
     - { item: "Drive and idler wheels", qty: 4, hours: 1.0 }
     - { item: "Bevel gear assembly",   qty: 1,  hours: 1.5 }
     - { item: "Track shafts (barrod)", qty: 3,  hours: 0.5 }
-    - { item: "Engine-mount bracket",  qty: 1,  hours: 0.5 }
+    - { item: "Engine mount bracket",  qty: 1,  hours: 0.5 }
   total_qty: "12 parts"
   total_hours: 7.0
   machine: "Bambu Lab"
@@ -13,11 +13,11 @@ print_time:
 assembly_time:
   rows:
     - { phase: "Print cleanup",  work: "Reaming bores, deburring, light sanding",      hours: 2.0 }
-    - { phase: "Track welding",  work: "148 links + 150 rivets, soldering iron",       hours: 8.0 }
+    - { phase: "Track welding",  work: "148 links and 150 rivets, soldering iron",     hours: 8.0 }
     - { phase: "Hull assembly",  work: "Side panels onto cabin, shaft fit-up",         hours: 2.0 }
     - { phase: "Drivetrain",     work: "Differential gears, motor bracket",            hours: 2.0 }
     - { phase: "Electronics",    work: "Arduino, driver, motor, wiring",               hours: 2.0 }
-    - { phase: "Fit-up & test",  work: "Track tensioning, drive trial, debug",         hours: 2.0 }
+    - { phase: "Fit-up and test", work: "Track tensioning, drive trial, debug",        hours: 2.0 }
   total_hours: 18.0
 
 totals:

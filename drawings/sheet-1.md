@@ -3,14 +3,14 @@ layout: sheet
 title: "Mark_Tracked_Vehicle"
 permalink: /drawings/sheet-1/
 sheet_num: 1
-subtitle: "Top-level isometric exploded view with the parts list. The six callouts on the model key to the six rows in the table at lower right."
+subtitle: "Top-level isometric exploded view with the parts list. The six callouts on the model match the six rows in the table at lower right."
 part: "BMironov_TrackedMark.iam"
-scale: "1 : 1"
+scale: "1 to 1"
 drawn: "mironovb · 4/15/2026"
 sheet_size: "D"
 image: /assets/drawings/sheet-1.jpg
-image_alt: "Sheet 1 of 7. Isometric exploded view of the full vehicle: two rhomboidal side panels, central cabin, four wheels, two long track shafts, and the bevel-gear pair, with leader lines pulling each part out to a numbered callout. Parts list at lower right shows six rows."
-image_caption: "BMironov_Tracked, Sheet 1 of 7. D-size sheet, 1 : 1 scale."
+image_alt: "Sheet 1 of 7. Isometric exploded view of the full vehicle. Two rhomboidal side panels, central cabin, four wheels, two long track shafts, and the bevel gear pair, with leader lines pulling each part out to a numbered callout. The parts list at lower right shows six rows."
+image_caption: "BMironov_Tracked, Sheet 1 of 7. D-size sheet, 1 to 1 scale."
 next_sheet: /drawings/sheet-2/
 ---
 
@@ -32,4 +32,4 @@ next_sheet: /drawings/sheet-2/
   </table>
 </div>
 
-<p>The exploded view is the cleanest single picture of how the vehicle goes together. Each leader line marks the assembly axis of one part group; reverse the leader and you have the install motion.</p>
+<p>The exploded view is the cleanest single picture of how the vehicle goes together. Each leader line marks the assembly axis of one part group. Reverse the leader and you have the install motion.</p>

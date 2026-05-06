@@ -1,11 +1,11 @@
-- heading: "Rear-wheel drive → front-wheel drive"
-  body: "The first layout drove the rear wheel pair. With the differential mounted at the back of the cabin, the side gears had to push torque through long shafts that flexed under load. Moving the drive forward shortened the load path and put the gear pair where the cabin was already widest, leaving room for the motor bracket without overhanging the hull."
+- heading: "From rear-wheel drive to front-wheel drive"
+  body: "The first plan put the drive on the back wheels. With the gears at the back of the cabin, the side gears had to push power through long shafts that bent under load. I moved the drive to the front. The shafts got shorter. The bracket now sits at the widest part of the cabin, where there is room for the motor."
 
-- heading: "Bevel reduction → differential gear"
-  body: "An earlier sketch used a fixed bevel reduction with a single output shaft and two slip-fit wheels. That works on a flat floor and breaks the moment the vehicle starts to turn. Replacing the fixed pair with a true differential — two side gears, two spider gears, a carrier — gave the two outputs independent speed. The build now teaches what a differential does instead of pretending it's not needed."
+- heading: "From a fixed gear pair to a real differential"
+  body: "An early sketch used a fixed bevel pair with one shaft and two loose wheels. It rolls fine on a flat floor. The moment a track catches on a lip, the wheels fight each other. I swapped it for a real differential. Two side gears, two spider gears, and a carrier give each output its own speed. The build now teaches what a differential does instead of pretending the part is not needed."
 
-- heading: "Loose tabs → tighter slot fits"
-  body: "The first hull-to-cabin joint used loose tabs sized for the design dimensions. Once the panels printed at 0.118 in instead of the 0.110 in design, the tabs rattled in their slots. The slots were narrowed in the next revision so the printed thickness fit firmly without sanding."
+- heading: "From loose tabs to tighter slot fits"
+  body: "The first hull and cabin joint used loose tabs sized for the design numbers. The panels printed at 0.118 in instead of the planned 0.110 in. The tabs rattled in the slots. The next version made the slots a little narrower, so the printed thickness fit firm without sanding."
 
-- heading: "Open electronics tray → integrated cabin"
-  body: "The first cabin sketch held the Arduino on a flat tray that bolted onto the side panels. The tray flexed under the motor's reaction torque and pushed the bevel pinion off-axis. Folding the tray into a U-channel cabin with two raised end walls turned the electronics carrier into the structural spine between the two side panels."
+- heading: "From a flat tray to a folded cabin"
+  body: "The first cabin sketch held the Arduino on a flat tray that bolted to the side panels. The tray flexed when the motor turned. That push moved the bevel pinion off-axis. I folded the tray into a U-channel cabin with two raised end walls. The electronics box now also acts as the structural spine between the two side panels."

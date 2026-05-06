@@ -1,11 +1,11 @@
-- heading: "One-sided track tensioner"
-  body: "Small dimensional variation between the two batches of track links added up across each loop. One assembled loop came out about 1.5 % longer than the other. A printed tensioner — a flat tongue inside the looser loop — takes up the slack. The fix works; the tensioner is a part the design didn't anticipate."
+- heading: "Tensioner only on one side"
+  body: "Small dimensional drift between the two batches of links added up across each loop. One assembled loop came out about 1.5 percent longer than the other. A printed tensioner, a flat tongue inside the looser loop, takes up the slack. The fix works. The tensioner is a part the design did not plan for."
 
-- heading: "Single-motor differential"
-  body: "Both tracks share one input. There is no active steering. The differential responds to load — if the inside track meets more resistance during a turn, the outside speeds up — but the controller cannot command a turn. Today the vehicle drives forward, slow, and steers passively."
+- heading: "One motor through a passive differential"
+  body: "Both tracks share one input. There is no active steering. The differential reacts to load. If the inside track meets more resistance during a turn, the outside speeds up. The controller cannot command a turn. Today the vehicle drives forward at a slow speed and steers passively."
 
 - heading: "PLA fatigue at the link pin holes"
-  body: "148 link holes flex with every revolution. PLA is not fatigue-friendly; the holes elongate over time and the rivets begin to seat sloppily. The vehicle is fine for a demo run; it would not survive a long-duration test without TPU links."
+  body: "Each of the 148 link holes flexes on every revolution. PLA does not handle fatigue well. The holes stretch over time and the rivets begin to seat sloppily. The vehicle is fine for a demo run. It would not survive a long test without TPU links."
 
 - heading: "Welded rivet heads"
-  body: "Soldering-iron welds hold well at rest but can shear under repeated bending. The rivets stay put while the vehicle rolls slowly on a flat floor. Faster running, or running over uneven ground, would start popping rivets."
+  body: "Soldering iron welds hold well at rest. They can shear under repeated bending. The rivets stay put while the vehicle rolls slow on a flat floor. Faster runs, or running over uneven ground, would start popping rivets."

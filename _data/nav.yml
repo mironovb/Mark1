@@ -1,5 +1,7 @@
 - { id: design,      label: "Design" }
 - { id: drivetrain,  label: "Drivetrain" }
+- { id: visuals,     label: "Drawings" }
+- { id: motion,      label: "Drive demos" }
 - { id: dimensions,  label: "Dimensions" }
 - { id: cost,        label: "Cost" }
 - { id: reflection,  label: "Reflection" }

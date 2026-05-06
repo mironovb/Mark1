@@ -27,7 +27,7 @@ rows:
     printed_in: 3.978
     delta_in: -0.022
     error_pct: 0.55
-  - feature: "Side-panel thickness"
+  - feature: "Side panel thickness"
     part: "Hullside"
     design_in: 0.110
     printed_in: 0.118
@@ -45,13 +45,13 @@ rows:
     printed_in: 0.282
     delta_in: -0.018
     error_pct: 6.00
-  - feature: "Drive-rod shaft D"
+  - feature: "Drive rod shaft D"
     part: "barrod"
     design_in: 0.300
     printed_in: 0.291
     delta_in: -0.009
     error_pct: 3.00
-  - feature: "Engine-mount bore D"
+  - feature: "Engine mount bore D"
     part: "Enginemount"
     design_in: 1.800
     printed_in: 1.788
@@ -63,7 +63,7 @@ rows:
     printed_in: 0.286
     delta_in: -0.014
     error_pct: 4.67
-  - feature: "Bevel-gear bore D"
+  - feature: "Bevel gear bore D"
     part: "Bevelgears"
     design_in: 0.300
     printed_in: 0.288
@@ -72,13 +72,13 @@ rows:
 
 critical_fits:
   - heading: "Wheel and shaft bores"
-    body: "The wheels need to slide onto the Ø0.30 in shafts but not wobble. PLA shrinks circular features, so all four wheel bores came out 6.00 % under and had to be reamed by hand to seat the shafts."
-  - heading: "Side-panel thickness"
-    body: "0.110 in design printed at 0.118 in — a 7.27 % over-extrusion that tightened the channels where the side panels meet the cabin. The fit-up was still possible without sanding, but the sheet thickness is the loosest tolerance in the build."
-  - heading: "Bevel-gear bores"
-    body: "The bores in both bevel gears came out Ø0.288 in against Ø0.300 in design. Same ream-by-hand step as the wheels, but the gear bores matter more — any wobble here shows up as backlash through the differential."
+    body: "The wheels need to slide onto the 0.30 in shafts without wobble. PLA shrinks round features. All four wheel bores came out 6.00 percent under and had to be reamed by hand to seat the shafts."
+  - heading: "Side panel thickness"
+    body: "0.110 in design printed at 0.118 in. That is 7.27 percent thicker than planned. It tightened the channels where the side panels meet the cabin. The fit-up still worked without sanding, but the sheet thickness has the loosest tolerance in the build."
+  - heading: "Bevel gear bores"
+    body: "Both bevel gear bores came out at 0.288 in versus a 0.300 in design. Same hand ream as the wheels. The gear bores matter more, because any wobble here shows up as backlash through the differential."
   - heading: "Outer dimensions"
-    body: "All length and height values landed within 1 % (panels 0.39 % to 0.56 %, cabin 0.53 % to 0.55 %, wheel diameter 0.64 %). The hull goes together without trimming or shimming because the major outer dimensions track the CAD."
+    body: "All length and height values landed inside 1 percent. Panels were 0.39 to 0.56 percent off. Cabin was 0.53 to 0.55 percent off. Wheel diameter was 0.64 percent off. The hull goes together without trimming or shimming because the major outer numbers track the CAD."
 
 method:
-  text: "Each printed feature was measured with calipers, n = 3, mean reported. Δ is printed minus design. Negative Δ means the printed feature is smaller than the CAD value — the typical PLA shrinkage direction."
+  text: "Each printed feature was measured with calipers, three times each, and the mean was used. Delta is printed minus design. A negative value means the printed feature is smaller than the CAD value, which is the normal direction PLA shrinks."
