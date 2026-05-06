@@ -43,8 +43,8 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
     {% include section-header.html num="01" label="Design journey" title="What it is, and the choices that shaped it." sub="The build sets a 1916 hull silhouette on top of a modern drivetrain. One stepper motor drives two tracks through a real differential. Getting to that layout took a few rounds." %}
 
     <div class="prose">
-      <p>The vehicle is a tracked platform. It has a central differential, a single NEMA 17 stepper, and an Arduino UNO. The Arduino runs open loop step control. Two side panels carry the chassis. A cabin between them holds the electronics. Two track shafts pass through the side panels and turn four drive wheels under 148 hand-welded track links.</p>
-      <p>The shape is borrowed. It is the rhomboidal silhouette from a 1916 supply tracked vehicle. The mechanics are not borrowed. The 1916 vehicle steered with brake bands across an epicyclic gear. This build steers passively through a bevel gear differential. The electrical and control side is left open on purpose, ready for a closed loop upgrade.</p>
+      <p>The vehicle is a tracked platform with a central differential, a single NEMA 17 stepper, and an Arduino UNO running open loop step control. Two side panels carry the chassis, and a cabin between them holds the electronics. Two track shafts pass through the side panels and turn four drive wheels under 148 hand-welded track links.</p>
+      <p>I borrowed the shape from a 1916 supply tracked vehicle - that rhomboidal silhouette. I did not borrow the mechanics. The 1916 vehicle steered with brake bands across an epicyclic gear. This build steers passively through a bevel gear differential, and I left the electrical and control side open so a future closed loop upgrade can drop in without surgery.</p>
       <p>The choices below are the ones that changed between the first sketch and the version on the bench.</p>
     </div>
 
@@ -90,7 +90,7 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
       <p>One engine, one central reduction, one differential, and two outputs. The mechanical logic was visible from inside the hull. You could trace power from the engine to the tracks with your finger. The 1916 vehicle steered with brake bands across an epicyclic gear. That worked because the engine was always running. It is the wrong solution for a stepper.</p>
 
       <h3>What this build keeps and what it drops</h3>
-      <p>This build keeps the silhouette and the central differential layout. It drops the brake band steering. There is no second controllable element, and adding one would mean adding a second motor. That sits on the future work list. The build adds an Arduino and a stepper driver where the petrol tank used to be. The gearbox compartment in the cutaway is now an open electronics tub. That choice is on purpose. The differential has to be visible while it works for the build to teach what it is supposed to teach.</p>
+      <p>This build keeps the silhouette and the central differential layout. It drops the brake band steering, because there is no second controllable element and adding one would mean a second motor (which sits on the future work list). An Arduino and a stepper driver took the spot where the petrol tank used to be. The gearbox compartment in the cutaway is now an open electronics tub, because the differential has to be visible while it works for the build to teach what it is supposed to teach.</p>
     </div>
   </div>
 </section>
@@ -251,7 +251,7 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
 
     <figure class="figure" style="margin-top: 3rem;">
       <img src="{{ '/media/newtopview.jpeg' | relative_url }}" alt="Top-down photo of the assembled cabin. White bevel gear pair on top of the black NEMA 17 stepper. A red and green track shaft runs left to right. A black USB battery sits at upper left. A breadboard with a small driver board and a red controller PCB sit below. Blue and red track links wrap both sides.">
-      <figcaption>Top view. The cabin is open on purpose. The bevel gear pair, the stepper, and the controller are all visible during a demo.</figcaption>
+      <figcaption>Top view. I left the cabin open so the bevel gear pair, the stepper, and the controller all stay visible during a demo.</figcaption>
     </figure>
   </div>
 </section>
@@ -365,7 +365,7 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
         <p>Each panel prints flat on the build plate. A small 0.30 in shaft hole carries the front track shaft. The rear corner pad has a second hole for the rear shaft.</p>
 
         <h3>Central cabin</h3>
-        <p>An open U-channel between the two side panels. It is 7.00 in long and 4.00 in tall. The 135 degree corner cuts at the front match the slope of the hull side panels, so the assembly sits flush. The cabin holds the Arduino, the TB6612 driver, the NEMA 17, and the battery pack. All of them are visible from above on purpose.</p>
+        <p>An open U-channel between the two side panels, 7.00 in long and 4.00 in tall. The 135 degree corner cuts at the front match the slope of the hull side panels, so the assembly sits flush. The cabin holds the Arduino, the TB6612 driver, the NEMA 17, and the battery pack, with everything sitting in the open so it can be inspected without taking the hull apart.</p>
       </div>
 
       <div class="prose">
@@ -394,7 +394,7 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
 
 <section id="motion" class="section section--soft">
   <div class="wrap">
-    {% include section-header.html num="06" label="Drive demos" title="It moves." sub="Three short clips of the vehicle in motion. The MP4 files play in any modern browser. The original WMV is kept as a download for archive purposes." %}
+    {% include section-header.html num="06" label="Drive demos" title="It moves." sub="Three short clips of the vehicle in motion. Each one plays straight in the browser." %}
 
     <div class="cols cols--2">
       <figure class="figure">
@@ -419,14 +419,14 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
         <source src="{{ '/media/movement.mp4' | relative_url }}" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <figcaption>Original movement clip (movement.wmv, converted to MP4 for the browser). <a href="{{ '/media/movement.wmv' | relative_url }}">Download the original WMV</a>.</figcaption>
+      <figcaption>Original movement clip from the bench, converted to MP4 so it plays here.</figcaption>
     </figure>
   </div>
 </section>
 
 <section id="dimensions" class="section">
   <div class="wrap">
-    {% include section-header.html num="07" label="Dimensions" title="CAD model versus printed part." sub="I measured every printed feature with calipers and compared it back to the design value. Eleven features. One above 5 percent error. Three above 3 percent. The bores shrink. The thickness over-extrudes. The outer dimensions hold." %}
+    {% include section-header.html num="07" label="Dimensions" title="CAD model versus printed part." sub="I measured every printed feature with calipers and compared each one back to the design value. Out of eleven features, one came in above 5 percent error and three were above 3 percent. The bores all shrink, the wall thickness over-extrudes, and the outer dimensions hold." %}
 
     <div class="cols cols--asym">
       <div>
@@ -714,20 +714,22 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
       </div>
     </div>
 
-    <figure class="figure figure--inset" style="margin-top: 3rem;">
-      <img src="{{ '/assets/images/tensioner.jpg' | relative_url }}" alt="Close-up of one corner of the hull showing a printed tensioner. A flat blue tongue projects outward and presses against the inside of the track loop to take up slack.">
-      <figcaption>The blue tongue is the printed tensioner. It took up the slack on the looser of the two track loops.</figcaption>
-    </figure>
+    <div class="cols cols--2" style="margin-top: 3rem;">
+      <figure class="figure">
+        <img src="{{ '/media/tensionerbed.jpeg' | relative_url }}" alt="Close-up of the Bambu Lab printer mid-print. A small blue tensioner part is being laid down on the printbed, with the toolhead just above it.">
+        <figcaption>The tensioner mid-print on the Bambu printbed. A small blue tongue, a few minutes of filament.</figcaption>
+      </figure>
+      <figure class="figure">
+        <img src="{{ '/assets/images/tensioner.jpg' | relative_url }}" alt="Close-up of one corner of the hull showing a printed tensioner. A flat blue tongue projects outward and presses against the inside of the track loop to take up slack.">
+        <figcaption>The same part once it sits in the hull. The blue tongue takes up the slack on the looser of the two track loops.</figcaption>
+      </figure>
+    </div>
   </div>
 </section>
 
 <section id="references" class="section section--soft">
   <div class="wrap">
     {% include section-header.html num="11" label="References" title="Sources used in the build." sub="Six sources, grouped by what they helped me do. Two hardware references for the motor driver and the stepper code. One textbook for tracked vehicle steering theory. Two software manuals for Inventor and Bambu Studio. One historical record for the hull silhouette." %}
-
-    <div class="prose">
-      <p>How to read each entry. The first line is the citation in author, year, title, and source format. The second line, marked <strong>Used for</strong>, says what part of the build I took from that source and where it shows up. If the source is online, the citation ends with the domain so you can find the page. Print sources end with the publisher.</p>
-    </div>
 
     <ol class="refs">
       {% for r in site.data.references %}

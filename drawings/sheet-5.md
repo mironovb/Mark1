@@ -33,4 +33,4 @@ next_sheet: /drawings/sheet-6/
   </table>
 </div>
 
-<p>The wheel is the most-printed structural part. There are eight per build. The bore is the tightest functional fit on the sheet. It is designed at 0.30 in. It printed at about 0.282 in. It was reamed to size before the shaft was press fit.</p>
+<p>The wheel is the most-printed structural part, with eight per build. The bore is the tightest functional fit on the sheet. The design value is 0.30 in, but the printer gave me about 0.282 in, so each one got reamed to size before the shaft was press fit.</p>

@@ -1,8 +1,8 @@
 - heading: "Two stepper motors"
-  body: "One motor per track. The differential would no longer be the only steering element. The vehicle becomes a skid-steer platform with a commanded heading. The hull has the room. The cabin would carry two TB6612 channels instead of one."
+  body: "One motor per track, so the differential is no longer the only steering element. The vehicle becomes a skid-steer platform with a commanded heading. The hull has the room for it, and the cabin would carry two TB6612 channels instead of one."
 
 - heading: "TPU for tracks and rivets"
-  body: "Better fatigue life. Quieter motion. Rivets that bend instead of shear. PLA was the right call for a first build because it prints fast and gives clean dimensions. It is the wrong material for any moving joint that gets cycled."
+  body: "TPU would give the tracks better fatigue life, quieter motion, and rivets that bend instead of shear. PLA was the right call for a first build because it prints fast and holds clean dimensions. For any moving joint that gets cycled, though, it is the wrong material."
 
 - heading: "Tighter tolerances on the track batches"
   body: "The two assembled loops came out about 1.5 percent apart in length. Printing all 148 links in one continuous batch on the same plate, with the same nozzle pass and the same cooldown, would close that gap. The tensioner would not be needed."

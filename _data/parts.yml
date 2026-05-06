@@ -9,7 +9,7 @@
   name: "Central cabin"
   file: "centralcabin.ipt"
   qty: 1
-  description: "Open electronics tub. It is a U-channel with two 135 degree corner cuts at the front. It carries the Arduino, the driver board, the motor, and the battery pack between the two side panels."
+  description: "Open electronics tub shaped as a U-channel, with two 135 degree corner cuts at the front. It carries the Arduino, the driver board, the motor, and the battery pack between the two side panels."
   drawing_sheet: 2
   group: "structure"
 - id: P-03
@@ -44,14 +44,14 @@
   name: "Track link"
   file: "(extra)"
   qty: 148
-  description: "Pin link track segments. They print in batches. Each link has two pin holes for plain rivets."
+  description: "Pin link track segments, printed in batches across multiple plates. Each link has two pin holes for plain rivets."
   drawing_sheet: null
   group: "tracks"
 - id: P-08
   name: "Plain rivet"
   file: "(extra)"
   qty: 150
-  description: "PLA pins. They go through the link pin holes and weld with a soldering iron. The iron softens the head until it mushrooms over the link face."
+  description: "PLA pins that go through the link pin holes and weld with a soldering iron. The iron softens the head until it mushrooms over the link face."
   drawing_sheet: null
   group: "tracks"
 - id: P-09
