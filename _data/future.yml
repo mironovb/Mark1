@@ -12,6 +12,3 @@
 
 - heading: "Heat-set inserts at the fasteners"
   body: "Self-tapping into PLA strips threads after a few cycles. Brass heat-set inserts at every fastener point trade a small extra step at assembly for joints that survive being unscrewed and reinstalled during testing. That covers the motor mount, the side panels, and the electronics tray."
-
-- heading: "Earlier use of auto-orientation in Bambu Studio"
-  body: "The slicer can find support-free placements in seconds. I did that work by hand here, part by part. Doing it in the slicer from the first round would have caught a few overhangs before they reached the printer."

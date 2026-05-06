@@ -748,7 +748,7 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
 
     <figure class="figure figure--inset" style="margin: 0 auto;">
       <img src="{{ '/media/tryitgifqr.png' | relative_url }}" alt="A QR code labeled TRY IT in green letters at the top. Standard square QR pattern below.">
-      <figcaption>QR code that links to a GIF of the differential function. The label reads TRY IT in green at the top.</figcaption>
+      <figcaption>QR code that links to a GIF of the differential function.</figcaption>
     </figure>
   </div>
 </section>
