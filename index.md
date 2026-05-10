@@ -84,13 +84,13 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
 
     <div class="prose">
       <h3>The shape and why it works</h3>
-      <p>A rhomboidal track loop puts a long stretch of track on the ground at any one time. That spreads the load. It gives the vehicle traction at low ground pressures. The high approach angle at the front lets the track climb up onto an obstacle instead of running into it. For a slow demonstrator that has to roll across uneven floors and small lips, the geometry pays for itself.</p>
+      <p>A rhomboidal track loop puts a long stretch of track on the ground at any one time. That spreads the load. It gives the vehicle traction at low ground pressures. The high approach angle at the front lets the track climb up onto an obstacle instead of running into it. For a slow demonstrator model that has to roll across uneven floors and small lips the geometry suits well.</p>
 
       <h3>What the old design got right</h3>
-      <p>One engine, one central reduction, one differential, and two outputs. The mechanical logic was visible from inside the hull. You could trace power from the engine to the tracks with your finger. The 1916 vehicle steered with brake bands across an epicyclic gear. That worked because the engine was always running. It is the wrong solution for a stepper.</p>
+      <p>One engine, one central reduction, one differential, and two outputs. The mechanical parts were visible from inside the hull. You could actually trace power from the engine to the tracks with your finger. The 1916 vehicle steered with brake bands across an epicyclic gear. That worked because the engine was always running since it was a combustion engine-powered vehicle.</p>
 
       <h3>What this build keeps and what it drops</h3>
-      <p>This build keeps the silhouette and the central differential layout. It drops the brake band steering, because there is no second controllable element and adding one would mean a second motor (which sits on the future work list). An Arduino and a stepper driver took the spot where the petrol tank used to be. The gearbox compartment in the cutaway is now an open electronics tub, because the differential has to be visible while it works for the build to teach what it is supposed to teach.</p>
+      <p>This build keeps the silhouette and the central differential layout. It drops the brake band steering because there is no second controllable element and adding one would mean a second motor (which sits on the future work list). An Arduino and a stepper driver are currently where the petrol tank used to be in the original 1916 model. The gearbox compartment in the cutaway is now an open electronics tub because the differential has to be visible while it works for the build to serve the teaching purposes</p>
     </div>
   </div>
 </section>
@@ -131,13 +131,13 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
 
     <div class="prose">
       <h3>How tracked vehicles steer, in three sentences</h3>
-      <p><strong>Skid steering</strong> drives the two tracks at different speeds and lets the slower track scrub on the ground. It needs a controllable element on each track. <strong>Brake band steering</strong> drives both tracks from one shaft and slows one side with a friction band. It needs a constantly driven shaft, which is why the 1916 vehicle's engine was always running. <strong>Hydrostatic steering</strong> uses two hydraulic motors and two pumps. It gives full control of each track but needs a hydraulic loop, which is too much at this scale.</p>
+      <p><strong>Skid steering</strong> drives the two tracks at different speeds and lets the slower track scrub on the ground. It needs a controllable element on each track. <strong>Brake band steering</strong> drives both tracks from one shaft and slows one side with a friction band. It needs a constantly driven shaft, which is why the 1916 vehicle's engine was always running. <strong>Hydrostatic steering</strong> uses two hydraulic motors and two pumps. It gives full control of each track but needs a hydraulic loop which is, however, too much at this scale.</p>
 
-      <h3>How 1916 did it</h3>
+      <h3>How 1916 model actually did it</h3>
       <p>One engine fed an epicyclic gear with two output drums. Brake bands wrapped each drum. Pulling one band slowed one track and the vehicle turned. It was mechanical, robust, and awful to control finely. The cutaway above shows the gear pair sitting where the petrol tank does not.</p>
 
       <h3>How this build does it</h3>
-      <p>One stepper feeds the bevel pinion. The pinion turns the crown gear and rotates the differential carrier. Two side gears inside the carrier feed two output shafts. With both tracks unloaded the differential splits torque evenly and the vehicle drives straight. With one track loaded, say the inside track during a turn, the differential gives the loaded side less rotation and the unloaded side more. The vehicle responds to the ground. The controller does not yet know about it.</p>
+      <p>One stepper feeds the bevel pinion. The pinion turns the crown gear and rotates the differential carrier. Two side gears inside the carrier feed two output shafts. With both tracks unloaded the differential splits torque evenly and the vehicle drives straight. With one track loaded, say the inside track during a turn, the differential gives the loaded side less rotation and the unloaded side more. The vehicle responds to the ground.</p>
     </div>
 
     <figure class="figure">
