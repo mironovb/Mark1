@@ -2,7 +2,7 @@
 layout: default
 title: "A Differential Gear Learning Platform"
 permalink: /
-description: "Final project portfolio. A 1916 silhouette tracked vehicle, modeled in Inventor, printed in PLA, driven by an Arduino and a single stepper motor."
+description: "Final project portfolio. A 1916 silhouette tracked vehicle which is modeled in Inventor, printed in PLA, and driven by an Arduino and a single stepper motor."
 ---
 
 <section id="overview" class="hero">
@@ -43,14 +43,14 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
     {% include section-header.html num="01" label="Design journey" title="What it is, and the choices that shaped it." sub="The build sets a 1916 hull silhouette on top of a modern drivetrain. One stepper motor drives two tracks through a real differential. Getting to that layout took a few rounds." %}
 
     <div class="prose">
-      <p>The vehicle is a tracked platform with a central differential, a single NEMA 17 stepper, and an Arduino UNO running open loop step control. Two side panels carry the chassis, and a cabin between them holds the electronics. Two track shafts pass through the side panels and turn four drive wheels under 148 hand-welded track links.</p>
-      <p>I borrowed the shape from a 1916 supply tracked vehicle - that rhomboidal silhouette. I did not borrow the mechanics. The 1916 vehicle steered with brake bands across an epicyclic gear. This build steers passively through a bevel gear differential, and I left the electrical and control side open so a future closed loop upgrade can drop in without surgery.</p>
-      <p>The choices below are the ones that changed between the first sketch and the version on the bench.</p>
+      <p>The vehicle is a tracked platform with a central differential, a single NEMA 17 stepper and an Arduino UNO running open loop step control. Two side panels have the chassis, and a cabin between them holds all of the electronics. Two track shafts pass through the side panels and turn four drive wheels under 148 hand-welded track links.</p>
+      <p>I borrowed the shape from a 1916 supply Mark-1 tank-based tracked vehicle - specifically, rhomboidal silhouette. I did not borrow all of the mechanics. The way 1916 vehicle steered was with something called brake bands across an epicyclic gear. This build steers passively through a bevel gear differential, and I left the electrical and control side open so a future upgrade can be easilly contributed without changing the structural parts of this project.</p>
+      <p>The choices below are the ones that changed between the first sketch and the final version on the bench.</p>
     </div>
 
     <figure class="figure figure--wide figure--bleed">
       <img src="{{ '/media/labeledexplodedview.png' | relative_url }}" alt="Labeled CAD exploded view of the assembly. Numbered callouts list hullside1.ipt, centralcabin.ipt, wheeldrive.ipt, gearassembly.iam, barrod.ipt, and bracket.ipt.">
-      <figcaption>Labeled exploded view of the core structural design. Six numbered callouts match the six file names on the right.</figcaption>
+      <figcaption>Labeled exploded view of the core structural design.</figcaption>
     </figure>
 
     <div class="decisions">
@@ -73,21 +73,21 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
 
     <div class="cols cols--2">
       <figure class="figure">
-        <img src="{{ '/assets/images/mark1-cutaway-1916.gif' | relative_url }}" alt="Black and white technical cutaway of a 1916 rhomboidal tracked vehicle. The tracks wrap around the full silhouette of the hull. Internal parts are labeled GearBox, Epicyclic Gear, Petrol Tank, Water Tank, Silencer, and Oil Tank.">
-        <figcaption>1916 cutaway. The tracks follow the full hull silhouette. The gearbox and an epicyclic gear share a center compartment. The vehicle is about 26 ft 5 in long.</figcaption>
+        <img src="{{ '/assets/images/mark1-cutaway-1916.gif' | relative_url }}" alt="Black and white technical cutaway of a 1916 rhomboidal British Mark-1 tracked vehicle. The tracks wrap around the full silhouette of the hull - that is the most important feature that I was inspired by">
+        <figcaption>1916 cutaway. The tracks follow the full hull. The gearbox and an epicyclic gear share a center compartment. The vehicle is about 26 ft 5 in long.</figcaption>
       </figure>
       <figure class="figure">
         <img src="{{ '/assets/images/mark1-museum.jpg' | relative_url }}" alt="Side view of a preserved 1916 Mark I tank in a museum. Riveted plate body, twin sponsons, and the long rhomboidal track loop wrapping the hull.">
-        <figcaption>The hull silhouette in a museum. Long ground contact length and a high approach angle.</figcaption>
+        <figcaption>The hull silhouette in a museum. It has a long ground contact length and a high approach angle.</figcaption>
       </figure>
     </div>
 
     <div class="prose">
-      <h3>The shape and why it works</h3>
-      <p>A rhomboidal track loop puts a long stretch of track on the ground at any one time. That spreads the load. It gives the vehicle traction at low ground pressures. The high approach angle at the front lets the track climb up onto an obstacle instead of running into it. For a slow demonstrator model that has to roll across uneven floors and small lips the geometry suits well.</p>
+      <h3>The shape and why it works for this specific model</h3>
+      <p>A rhomboidal track loop puts a very long stretch of track on the ground at any one time. That spreads the load more or less evenly. It gives the vehicle traction at low ground pressures. Also, the high approach angle at the front lets the track climb up onto an obstacle instead of running into it, and historically this was used to run over trenches. For a slow demonstrator model that rolls across uneven floors and small lips the geometry suits very well.</p>
 
       <h3>What the old design got right</h3>
-      <p>One engine, one central reduction, one differential, and two outputs. The mechanical parts were visible from inside the hull. You could actually trace power from the engine to the tracks with your finger. The 1916 vehicle steered with brake bands across an epicyclic gear. That worked because the engine was always running since it was a combustion engine-powered vehicle.</p>
+      <p>One engine, one central reduction, one differential and two outputs. The mechanical parts were visible from inside the hull. You could actually trace power from the engine to the tracks with your finger. The 1916 vehicle steered with brake bands across an epicyclic gear, that worked because the engine was always running since it was a combustion engine-powered vehicle.</p>
 
       <h3>What this build keeps and what it drops</h3>
       <p>This build keeps the silhouette and the central differential layout. It drops the brake band steering because there is no second controllable element and adding one would mean a second motor (which sits on the future work list). An Arduino and a stepper driver are currently where the petrol tank used to be in the original 1916 model. The gearbox compartment in the cutaway is now an open electronics tub because the differential has to be visible while it works for the build to serve the teaching purposes</p>
@@ -121,37 +121,37 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
     <div class="cols cols--2">
       <figure class="figure">
         <img src="{{ '/assets/images/diff-real.jpg' | relative_url }}" alt="Top-down photo of the printed differential mounted in the central cabin. White bevel gears mesh between two red drum collars on the green-tipped track shafts. The black NEMA 17 motor sits behind the gear pair.">
-        <figcaption>The differential mounted in the cabin. The two red collars are the side-gear cups on the track shafts. The white spiders sit between them. The carrier holds the spiders against the side gears as the crown gear turns.</figcaption>
+        <figcaption>The differential mounted in the cabin. The two red collars are the side-gear cups on the track shafts. The white spiders sit between them and the carrier holds the spiders against the side gears as the crown gear turns.</figcaption>
       </figure>
       <figure class="figure">
         <img src="{{ '/assets/images/diff-schematic.jpg' | relative_url }}" alt="Labeled schematic of an automotive style differential. A drive shaft enters from above through a drive pinion. The pinion meshes a ring gear that bolts to the carrier. Inside the carrier two differential pinions float between two side gears that drive the left and right axles.">
-        <figcaption>Reference schematic. The build follows the same pattern with printed PLA gears and a 23 to 54 bevel pair preset.</figcaption>
+        <figcaption>Reference schematic, the build follows the same pattern with printed PLA gears and a 23 to 54 bevel pair preset.</figcaption>
       </figure>
     </div>
 
     <div class="prose">
-      <h3>How tracked vehicles steer, in three sentences</h3>
-      <p><strong>Skid steering</strong> drives the two tracks at different speeds and lets the slower track scrub on the ground. It needs a controllable element on each track. <strong>Brake band steering</strong> drives both tracks from one shaft and slows one side with a friction band. It needs a constantly driven shaft, which is why the 1916 vehicle's engine was always running. <strong>Hydrostatic steering</strong> uses two hydraulic motors and two pumps. It gives full control of each track but needs a hydraulic loop which is, however, too much at this scale.</p>
+      <h3>How tracked vehicles actually steer</h3>
+      <p><strong>Skid steering</strong> drives the two tracks at different speeds and lets the slower track scrub on the ground. It needs a controllable element on each track, e.g motor. <strong>Brake band steering</strong> drives both tracks from one shaft and slows one side with a friction band. It needs a constantly driven shaft which is why the 1916 vehicle's engine was always running. <strong>Hydrostatic steering</strong> uses two hydraulic motors and two pumps, it gives full control of each track but needs a hydraulic loop which is, however, too much at this scale and hydraulics is not something that is accessible to use with current class resources</p>
 
       <h3>How 1916 model actually did it</h3>
-      <p>One engine fed an epicyclic gear with two output drums. Brake bands wrapped each drum. Pulling one band slowed one track and the vehicle turned. It was mechanical, robust, and awful to control finely. The cutaway above shows the gear pair sitting where the petrol tank does not.</p>
+      <p>One engine fed an epicyclic gear with two output drums, brake bands wrapped each drum. Pulling one band slowed one track and the vehicle turned. It was mechanical and robust, and awful to control finely during the ride. The cutaway above shows the gear pair sitting where the petrol tank is supposed to be in the real scale vehicle</p>
 
       <h3>How this build does it</h3>
-      <p>One stepper feeds the bevel pinion. The pinion turns the crown gear and rotates the differential carrier. Two side gears inside the carrier feed two output shafts. With both tracks unloaded the differential splits torque evenly and the vehicle drives straight. With one track loaded, say the inside track during a turn, the differential gives the loaded side less rotation and the unloaded side more. The vehicle responds to the ground.</p>
+      <p>One stepper feeds the bevel pinion, the pinion turns the crown gear and rotates the differential carrier. Two side gears inside the carrier feed two output shafts. With both tracks unloaded the differential splits torque evenly and the vehicle drives straight. With one track loaded, e.g. the inside track during a turn, the differential gives the loaded side less rotation and therefore the unloaded side more. The vehicle basically responds to the ground as it is moving.</p>
     </div>
 
     <figure class="figure">
       <img src="{{ '/assets/images/diff-callout.png' | relative_url }}" alt="Colored illustration of a differential with three numbered callouts. 1 is the crown gear receiving torque from the pinion. 2 is the spider gears meshing inside the carrier. 3 is the axle shaft taking torque to the wheel.">
-      <figcaption>1 the crown gear takes torque from the pinion. 2 the spider gears float inside the carrier. 3 the axle shaft carries torque to the track.</figcaption>
+      <figcaption>1 the crown gear takes torque from the pinion. 2 the spider gears float inside the carrier. 3 the axle shaft carries torque to the actual track.</figcaption>
     </figure>
 
     <div class="cols cols--3">
       <figure class="figure">
-        <img src="{{ '/assets/images/nema17-stepper.jpg' | relative_url }}" alt="Pololu product photo of a NEMA 17 stepper motor, model SY42STH38-1684A. Square aluminum body, four mounting holes on the front face, a 5 mm shaft sticking out of the center.">
+        <img src="{{ '/assets/images/nema17-stepper.jpg' | relative_url }}" alt="product photo of a NEMA 17 stepper motor, model SY42STH38-1684A. Square aluminum body, four mounting holes on the front face, a 5 mm shaft sticking out of the center.">
         <figcaption>NEMA 17 (SY42STH38). 200 steps per revolution at 1.8 degrees per step.</figcaption>
       </figure>
       <figure class="figure">
-        <img src="{{ '/assets/images/bevel-cad-pair.jpg' | relative_url }}" alt="CAD render of the bevel gear pair. Small pinion at upper left meshes the large crown gear at right, both shown at 90 degrees to each other.">
+        <img src="{{ '/assets/images/bevel-cad-pair.jpg' | relative_url }}" alt="CAD render of the bevel gear pair, small pinion at upper left meshes the large crown gear at right, both shown at 90 degrees to each other.">
         <figcaption>Bevel pair as rendered from the assembly. Ratio is 23 to 54.</figcaption>
       </figure>
       <figure class="figure">
@@ -164,7 +164,7 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
 
 <section id="composition" class="section section--soft">
   <div class="wrap">
-    {% include section-header.html num="04" label="Composition" title="Three systems, more than 180 components." sub="The build groups into a drivetrain (the gear pair), an electronics layer (Arduino and motor driver), and a structural layer (hull and tracks). Each is small enough to debug on its own." %}
+    {% include section-header.html num="04" label="Composition" title="Three systems, more than 180 components." sub="The build groups into a drivetrain (the gear pair), and an electronics layer (Arduino and motor driver), and a structural layer (hull and tracks)" %}
 
     <div class="card-grid">
       <div class="card">
@@ -220,7 +220,7 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
     </div>
 
     <h3 style="margin-top: 3rem;">Every part by name</h3>
-    <p class="prose">All ten unique parts in the bill of materials. Quantities, file names, and the drawing sheet that shows each part. The full description for each part lives on the <a href="{{ '/parts/' | relative_url }}">parts page</a>.</p>
+    <p class="prose">All ten unique parts in the bill of materials. Quantities, file names, and the drawing sheet that shows each part, the full description for each part is on the <a href="{{ '/parts/' | relative_url }}">parts page</a>.</p>
 
     <div class="tbl-wrap">
       <table>
@@ -250,7 +250,7 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
     </div>
 
     <figure class="figure" style="margin-top: 3rem;">
-      <img src="{{ '/media/newtopview.jpeg' | relative_url }}" alt="Top-down photo of the assembled cabin. White bevel gear pair on top of the black NEMA 17 stepper. A red and green track shaft runs left to right. A black USB battery sits at upper left. A breadboard with a small driver board and a red controller PCB sit below. Blue and red track links wrap both sides.">
+      <img src="{{ '/media/newtopview.jpeg' | relative_url }}" alt="Photo of the assembled cabin. White bevel gear pair on top of the black NEMA 17 stepper. A red and green track shaft runs left to right. A black USB battery sits at upper left. A breadboard with a small driver board and a red controller PCB sit below. Blue and red track links wrap both sides.">
       <figcaption>Top view. I left the cabin open so the bevel gear pair, the stepper, and the controller all stay visible during a demo.</figcaption>
     </figure>
   </div>
@@ -261,7 +261,7 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
     {% include section-header.html num="05" label="Visual documentation" title="Listing of the drawings." %}
 
     <figure class="figure figure--wide">
-      <img src="{{ '/assets/images/exploded-leaders.png' | relative_url }}" alt="CAD isometric of the full assembly with leader lines pulling each part group out to the side. Two side panels, four wheels, two track shafts, central cabin, motor bracket, and bevel gear pair. Each leader is numbered to a parts list.">
+      <img src="{{ '/assets/images/exploded-leaders.png' | relative_url }}" alt="CAD isometric of the full assembly with leader lines pulling each part group out to the side, two side panels, four wheels, two track shafts, central cabin, motor bracket, and bevel gear pair.">
       <figcaption>Six callouts. 1 hullside1.ipt. 2 centralcabin.ipt. 3 wheeldrive.ipt. 4 gearassembly.iam. 5 barrod.ipt. 6 bracket.ipt. The full BOM lives on the parts page.</figcaption>
     </figure>
 
@@ -692,10 +692,10 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
     <div class="reflect">
       <div class="reflect__group">
         <h3>What did not work the first time</h3>
-        <p>The first hull layout drove the rear wheel pair. The differential was at the back of the cabin. The side gears had to push torque through the long shafts under load. Moving the drive forward shortened the load path. The bracket now sits where the cabin is widest.</p>
-        <p>The first drivetrain used a fixed bevel reduction. One input, one shaft, two slip-fit wheels. It rolled in a straight line. It then wound up against itself the moment a track caught a lip. Replacing the fixed pair with a real differential gave the two outputs independent speed.</p>
-        <p>Three printed bores came out small. The wheel bores were 6.00 percent under (0.282 in versus a 0.300 in design). The hullside shaft holes were 4.67 percent under. The bevel gear bores were 4.00 percent under. All three got reamed by hand during the print cleanup phase. None of them came out of the printer ready to use. That should have been planned in from the start.</p>
-        <p>One side of the track came out looser than the other. Small drift between the two link batches added up across the loop length. A printed tensioner, a flat tongue against the inside of the loop, took up the slack. The fix works. The tensioner is a part the design did not plan for. Tighter batch to batch control would prevent the need for it.</p>
+        <p>The first hull layout drove the rear wheel pair, the differential was at the back of the cabin. The side gears had to push torque through the long shafts under load which is not optimal for our plastic. Moving the drive forward shortened the load path, which I believe is a more optimal configuration for this setup. The bracket now sits basically in the middle of cabin.</p>
+        <p>The first drivetrain used a fixed bevel reduction. One input and one shaft, two slip-fit wheels (I did not have access to proper bearings). It rolled in a straight line, but it then would wound up against itself the moment a track caught a lip. Replacing the fixed pair with a real differential gave the two outputs independent speed and better control, as well as some future upgrade potential for the braking</p>
+        <p>Three printed bores came out too small. The wheel bores were 6.00 percent under (0.282 in versus a 0.300 in design). The hullside shaft holes were 4.67 percent under. The bevel gear bores were 4.00 percent under. All three got fixed by hand during the print cleanup phase. None of them actually came out of the printer ready to use - our printer does not really like round shapes. That should have been planned in from the start.</p>
+        <p>One side of the track came out looser than the other. Small drift between the two link batches and inconsistency in printer choice added up across the loop length which is pretty big. A printed tensioner which is just a flat tongue against the inside of the loop, fixed the slack. The fix works, though it is not the prettiest. The tensioner is an extra part the design did not plan for. Tighter batch to batch control and use of a single 3d printer would have prevented the need for it.</p>
       </div>
 
       <div class="reflect__group">
@@ -708,9 +708,9 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle, modele
 
       <div class="reflect__group">
         <h3>What I learned</h3>
-        <p>The clear lesson is on tolerances. PLA shrinks round features and adds material at flat walls. The design has to plan for both. The clearance fit bores should have been designed at 0.318 in if the printed result needed to be 0.300 in. Knowing the direction PLA moves is half the work. The other half is committing to that direction in the model instead of reaming after print.</p>
-        <p>The other lesson is on motors and steering. A single drive source plus a passive differential teaches the differential. It does not make a useful vehicle. Two motors and a closed loop heading reference is where this build wants to go next. The hardware path is clear. The work is the controller.</p>
-        <p>The third, smaller lesson is on assembly time. The print plan accounted for hours on the printer. The welding plan did not account for the eight bench hours of soldering iron work. The next plan budgets the assembly time honestly, because that is where the schedule actually sits.</p>
+        <p>The lesson is mostly on tolerances. PLA, and our printers generally, shrink round features and add material at flat walls from my observations. The design, therefore, has to plan for both in advance. The clearance fit bores should have been designed at approximately 0.318 in if the printed result needed to be 0.300 in. Knowing this is, however, half the work. The other half is committing to that direction in the model instead of fixing after print which seems easier, yet is not optimal in professional design</p>
+        <p>The other lesson is on motors and the steering. While reading and preparing for the build I have learned a lot in general on the special aspects of the steering in unconventional vehicles. A single drive source plus a passive differential, which I have built, does not make a useful vehicle as is. Two motors and a closed loop heading reference is where this build hopefully will to go next. The hardware path is pretty straightforward, though the work is the controller.</p>
+        <p>The third, smaller lesson is on assembly time. The print plan accounted for hours on the printer, but the welding plan did not account for the eight bench hours of soldering iron work. The next plan budgets the assembly time honestly because that is where the schedule actually is the most occupied.</p>
       </div>
     </div>
 
