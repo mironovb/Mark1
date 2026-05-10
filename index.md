@@ -69,7 +69,7 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle which i
 
 <section id="inspirations" class="section section--soft">
   <div class="wrap">
-    {% include section-header.html num="02" label="Inspirations" title="An old shape, picked because it works." sub="The hull comes from a 1916 supply tracked vehicle. It was the smallest set of changes that gave the build the ground contact length it needed." %}
+    {% include section-header.html num="02" label="Inspirations" title="An old shape that was picked because it works." sub="The hull comes from a 1916 supply tracked vehicle. It was the smallest set of changes that gave the build the ground contact length it needed." %}
 
     <div class="cols cols--2">
       <figure class="figure">
@@ -588,7 +588,7 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle which i
       </figure>
       <figure class="figure">
         <img src="{{ '/assets/images/electronics-bench.jpg' | relative_url }}" alt="Top-down photo of the assembled cabin during electronics fit-up. A black power bank sits on the left. A NEMA 17 stepper sits centered with a bevel pinion on its shaft. White spider gears, a breadboard with a TB6612 driver below, and jumper wires run between.">
-        <figcaption>Cabin during electronics fit-up. The bevel pinion is on the motor shaft. The differential carrier sits below.</figcaption>
+        <figcaption>Cabin during electronics fit-up. The bevel pinion is on the motor shaft, the differential carrier sits below.</figcaption>
       </figure>
     </div>
 
