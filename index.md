@@ -69,7 +69,7 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle which i
 
 <section id="inspirations" class="section section--soft">
   <div class="wrap">
-    {% include section-header.html num="02" label="Inspirations" title="An old shape that was picked because it works." sub="The hull comes from a 1916 supply tracked vehicle. It was the smallest set of changes that gave the build the ground contact length it needed." %}
+    {% include section-header.html num="02" label="Inspirations" title="An old shape that was picked because it works." sub="The hull comes from a 1916 supply tracked vehicle (Mark 1 supply tank)" %}
 
     <div class="cols cols--2">
       <figure class="figure">
@@ -87,7 +87,7 @@ description: "Final project portfolio. A 1916 silhouette tracked vehicle which i
       <p>A rhomboidal track loop puts a very long stretch of track on the ground at any one time. That spreads the load more or less evenly. It gives the vehicle traction at low ground pressures. Also, the high approach angle at the front lets the track climb up onto an obstacle instead of running into it, and historically this was used to run over trenches. For a slow demonstrator model that rolls across uneven floors and small lips the geometry suits very well.</p>
 
       <h3>What the old design got right</h3>
-      <p>One engine, one central reduction, one differential and two outputs. The mechanical parts were visible from inside the hull. You could actually trace power from the engine to the tracks with your finger. The 1916 vehicle steered with brake bands across an epicyclic gear, that worked because the engine was always running since it was a combustion engine-powered vehicle.</p>
+      <p>One engine, one central reduction, one differential and two outputs. The mechanical parts were visible from inside the hull. You could actually trace power from the engine to the tracks with your finger. The 1916 vehicle steered with brake bands across an epicyclic gear, that worked because the engine was always running since  a combustion engine-powered vehicle.</p>
 
       <h3>What this build keeps and what it drops</h3>
       <p>This build keeps the silhouette and the central differential layout. It drops the brake band steering because there is no second controllable element and adding one would mean a second motor (which sits on the future work list). An Arduino and a stepper driver are currently where the petrol tank used to be in the original 1916 model. The gearbox compartment in the cutaway is now an open electronics tub because the differential has to be visible while it works for the build to serve the teaching purposes</p>
